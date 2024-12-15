@@ -122,3 +122,6 @@ section.content-section.visible {
     line-height: 1.6;
     color: #555;
 }
+p {
+    color: white;
+}
