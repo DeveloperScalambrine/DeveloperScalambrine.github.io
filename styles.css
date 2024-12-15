@@ -1,80 +1,52 @@
-/* Reset básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-}
-
-/* Botão de abrir menu */
-#menu-toggle {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    font-size: 1.5rem;
-    background: none;
-    border: none;
-    cursor: pointer;
-    z-index: 1000;
-}
-
-/* Menu fullscreen */
-#fullscreen-menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.9); /* Fundo escuro transparente */
-    color: #fff;
+/* Seção Home */
+#home {
+    padding: 50px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    z-index: 999;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
-    opacity: 0;
-    visibility: hidden;
+    gap: 30px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
 }
 
-/* Menu visível */
-#fullscreen-menu.visible {
-    opacity: 1;
-    visibility: visible;
+/* Foto de perfil */
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Botão de fechar menu */
-#menu-close {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    font-size: 1.5rem;
-    background: none;
-    border: none;
-    color: #fff;
-    cursor: pointer;
+/* Descrição na Home */
+.home-description {
+    max-width: 600px;
 }
 
-/* Links do menu */
-#fullscreen-menu ul {
-    list-style: none;
+.home-description h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.home-description p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Seções genéricas */
+section {
+    padding: 50px 20px;
     text-align: center;
 }
 
-#fullscreen-menu li {
-    margin: 20px 0;
+section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
 }
 
-#fullscreen-menu a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 2rem;
-    transition: color 0.3s;
-}
-
-#fullscreen-menu a:hover {
-    color: #f39c12;
+section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
 }
