@@ -1,4 +1,4 @@
-/* Configuração global */
+/* Reset básico */
 * {
     margin: 0;
     padding: 0;
@@ -7,98 +7,120 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: black; /* Fundo preto para todo o site */
-    color: white;
 }
 
-/* Menu */
+/* Botão de abrir menu */
 #menu-toggle {
-    position: absolute;
+    position: fixed;
     top: 20px;
     left: 20px;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
     cursor: pointer;
-    color: #fff;
-    z-index: 100; /* Garante que o botão fique visível acima de outros elementos */
+    z-index: 1000;
 }
 
+/* Menu fullscreen */
 #fullscreen-menu {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.9); /* Fundo preto translúcido */
-    display: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 99;
+    flex-direction: column;
+    z-index: 999;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
 }
 
 #fullscreen-menu.visible {
-    display: flex; /* Exibe o menu quando a classe 'visible' for adicionada */
+    opacity: 1;
+    visibility: visible;
 }
 
-#fullscreen-menu a {
-    color: white;
-    text-decoration: none;
-    font-size: 2rem;
-    margin: 20px;
-    transition: all 0.3s;
+/* Botão de fechar menu */
+#menu-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
 }
 
-#fullscreen-menu a:hover {
-    color: #ddd;
-    transform: scale(1.1);
-}
-
-/* Seções */
-section {
-    padding: 50px;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* Links do menu */
+#fullscreen-menu ul {
+    list-style: none;
     text-align: center;
 }
 
-#home {
-    display: flex;
-    flex-direction: column; /* Coloca a foto e a descrição em coluna */
-    justify-content: center; /* Alinha o conteúdo verticalmente */
-    align-items: center; /* Centraliza horizontalmente */
-    text-align: center; /* Centraliza o texto */
-    min-height: 100vh;
-    gap: 20px; /* Espaço entre os elementos */
+#fullscreen-menu li {
+    margin: 20px 0;
 }
 
-#about, #services, #contact {
-    background-color: #222; /* Seções com fundo escuro */
+#fullscreen-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    transition: color 0.3s;
+}
+
+#fullscreen-menu a:hover {
+    color: #f39c12;
+}
+
+/* Seções da página */
+section {
+    padding: 50px 20px;
+    display: none;
+}
+
+section.content-section.visible {
+    display: block;
+}
+
+/* Estilo da Home */
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
 }
 
 /* Foto de perfil */
-  width: 200px; /* Aumenta o tamanho da foto */
-    height: 200px;
+.profile-photo {
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Melhora o destaque da foto */
-    border: 4px solid #888; /* Adiciona uma borda cinza */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Descrição */
 .home-description {
-    max-width: 600px; /* Define uma largura máxima */
-    margin: 0 auto; /* Centraliza horizontalmente */
+    max-width: 600px;
+}
+
+.home-description h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
 
 .home-description p {
-    font-size: 1.4rem; /* Texto maior */
-    line-height: 2; /* Espaçamento entre linhas */
-    font-family: "Georgia", serif; /* Fonte elegante */
-    color: #ddd; /* Branco mais suave */
-    letter-spacing: 0.5px; /* Adiciona espaçamento entre as letras */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Adiciona um leve sombreamento */
-    text-align: justify; /* Alinha o texto de forma justificada */
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
 }
 
 table {
