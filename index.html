@@ -14,15 +14,17 @@
     <div id="fullscreen-menu" class="hidden">
         <button id="menu-close">✖ Close Menu</button>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home" class="menu-link" data-section="home">Home</a></li>
+            <li><a href="#about" class="menu-link" data-section="about">About</a></li>
+            <li><a href="#services" class="menu-link" data-section="services">Services</a></li>
+            <li><a href="#contact" class="menu-link" data-section="contact">Contact</a></li>
         </ul>
     </div>
-     <main>
+
+    <!-- Seções da página -->
+    <main>
         <!-- Seção Home -->
-        <section id="home">
+        <section id="home" class="content-section hidden">
             <div class="home-container">
                 <img src="sua-foto.jpg" alt="Sua Foto" class="profile-photo">
                 <div class="home-description">
@@ -36,23 +38,24 @@
             </div>
         </section>
 
-        <!-- Outras seções -->
-        <section id="about">
+        <!-- Seção About -->
+        <section id="about" class="content-section hidden">
             <h2>About</h2>
             <p>Conteúdo sobre você ou sua empresa...</p>
         </section>
 
-        <section id="services">
+        <!-- Seção Services -->
+        <section id="services" class="content-section hidden">
             <h2>Services</h2>
             <p>Descreva os serviços que você oferece...</p>
         </section>
 
-        <section id="contact">
+        <!-- Seção Contact -->
+        <section id="contact" class="content-section hidden">
             <h2>Contact</h2>
             <p>Informações de contato ou um formulário...</p>
         </section>
     </main>
-
 
     <script src="script.js"></script>
 </body>
