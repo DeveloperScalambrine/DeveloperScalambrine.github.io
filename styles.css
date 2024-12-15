@@ -1,4 +1,4 @@
-/* Configuração global */
+/* Reset básico */
 * {
     margin: 0;
     padding: 0;
@@ -7,72 +7,125 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: black; /* Garante fundo preto para o site inteiro */
-    color: white;
+    background-color: #000; /* Fundo preto global */
+    color: #fff; /* Texto branco padrão */
 }
 
-/* Menu */
+/* Botão de abrir menu */
 #menu-toggle {
-    position: absolute;
+    position: fixed;
     top: 20px;
     left: 20px;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
     cursor: pointer;
+    z-index: 1000;
     color: #fff;
-    z-index: 100; /* Garante que o botão fique visível acima de outros elementos */
 }
 
+/* Menu fullscreen */
 #fullscreen-menu {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.9); /* Fundo preto translúcido */
-    display: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 99;
+    flex-direction: column;
+    z-index: 999;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
 }
 
 #fullscreen-menu.visible {
-    display: flex; /* Exibe o menu quando a classe 'visible' for adicionada */
+    opacity: 1;
+    visibility: visible;
 }
 
-/* Estilo para a seção Home */
+/* Botão de fechar menu */
+#menu-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Links do menu */
+#fullscreen-menu ul {
+    list-style: none;
+    text-align: center;
+}
+
+#fullscreen-menu li {
+    margin: 20px 0;
+}
+
+#fullscreen-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    transition: color 0.3s;
+}
+
+#fullscreen-menu a:hover {
+    color: #f39c12;
+}
+
+/* Seções da página */
+section {
+    display: none;
+    padding: 50px 20px;
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+}
+
+section.content-section.visible {
+    display: block;
+}
+
+/* Títulos */
+section h2, .home-description h1 {
+    font-size: 2rem;
+    color: #888; /* Cinza para os títulos */
+    margin-bottom: 20px;
+}
+
+/* Parágrafos */
+section p, .home-description p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #fff; /* Branco para o texto */
+}
+
+/* Estilo da Home */
 #home {
     display: flex;
-    flex-direction: column; /* Coloca os elementos em coluna */
-    justify-content: center; /* Alinha verticalmente ao centro */
-    align-items: center; /* Centraliza horizontalmente */
-    text-align: center; /* Centraliza o texto */
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
     min-height: 100vh;
-    gap: 30px; /* Espaçamento entre a foto e a descrição */
-    background-color: black; /* Garante o fundo preto para a seção */
 }
 
 /* Foto de perfil */
 .profile-photo {
-    width: 220px; /* Aumenta o tamanho da foto */
-    height: 220px;
-    border-radius: 50%; /* Torna a foto circular */
-    object-fit: cover; /* Ajusta para cobrir o espaço disponível */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Sombra elegante */
-    border: 4px solid #888; /* Adiciona borda cinza */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Descrição */
 .home-description {
-    max-width: 700px; /* Define uma largura máxima */
-    margin: 0 auto; /* Centraliza horizontalmente */
-}
-
-.home-description p {
-    font-size: 1.4rem; /* Texto maior */
-    line-height: 2; /* Espaçamento entre linhas */
-    font-family: "Georgia", serif; /* Fonte elegante */
-    color: #ddd; /* Branco mais suave */
-    letter-spacing: 0.5px; /* Adiciona espaçamento entre as letras */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Adiciona um leve sombreamento */
-    text-align: justify; /* Alinha o texto de forma justificada */
+    max-width: 600px;
 }
