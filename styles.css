@@ -95,3 +95,26 @@ section {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Adiciona um leve sombreamento */
     text-align: justify; /* Alinha o texto de forma justificada */
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+td {
+    background-color: #222;
+    color: white;
+}
+
