@@ -1,32 +1,36 @@
 /* Estilo para a seção Home */
 #home {
     display: flex;
-    flex-direction: column; /* Coloca a foto e a descrição em coluna */
-    justify-content: center; /* Alinha o conteúdo verticalmente */
+    flex-direction: column; /* Coloca os elementos em coluna */
+    justify-content: center; /* Alinha verticalmente ao centro */
     align-items: center; /* Centraliza horizontalmente */
     text-align: center; /* Centraliza o texto */
     min-height: 100vh;
-    gap: 20px; /* Espaço entre os elementos */
+    gap: 30px; /* Espaçamento entre a foto e a descrição */
 }
 
 /* Foto de perfil */
 .profile-photo {
-    width: 200px; /* Aumenta o tamanho da foto */
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Melhora o destaque da foto */
-    border: 4px solid #888; /* Adiciona uma borda cinza */
+    width: 220px; /* Aumenta o tamanho da foto */
+    height: 220px;
+    border-radius: 50%; /* Torna a foto circular */
+    object-fit: cover; /* Ajusta para cobrir o espaço disponível */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Sombra elegante */
+    border: 4px solid #888; /* Adiciona borda cinza */
 }
 
 /* Descrição */
 .home-description {
-    max-width: 600px;
+    max-width: 700px; /* Define uma largura máxima */
+    margin: 0 auto; /* Centraliza horizontalmente */
 }
 
 .home-description p {
-    font-size: 1.2rem; /* Torna o texto mais elegante */
-    line-height: 1.8; /* Aumenta o espaçamento entre linhas */
-    font-family: "Georgia", serif; /* Define uma fonte mais clássica */
-    color: #ddd; /* Ajusta o tom do branco */
+    font-size: 1.4rem; /* Texto maior */
+    line-height: 2; /* Espaçamento entre linhas */
+    font-family: "Georgia", serif; /* Fonte elegante */
+    color: #ddd; /* Branco mais suave */
+    letter-spacing: 0.5px; /* Adiciona espaçamento entre as letras */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Adiciona um leve sombreamento */
+    text-align: justify; /* Alinha o texto de forma justificada */
 }
