@@ -63,7 +63,13 @@ section {
 }
 
 #home {
-    background-color: black;
+    display: flex;
+    flex-direction: column; /* Coloca a foto e a descrição em coluna */
+    justify-content: center; /* Alinha o conteúdo verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    text-align: center; /* Centraliza o texto */
+    min-height: 100vh;
+    gap: 20px; /* Espaço entre os elementos */
 }
 
 #about, #services, #contact {
@@ -71,18 +77,17 @@ section {
 }
 
 /* Foto de perfil */
-.profile-photo {
-    width: 220px; /* Aumenta o tamanho da foto */
-    height: 220px;
-    border-radius: 50%; /* Torna a foto circular */
-    object-fit: cover; /* Ajusta para cobrir o espaço disponível */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Sombra elegante */
-    border: 4px solid #888; /* Adiciona borda cinza */
+  width: 200px; /* Aumenta o tamanho da foto */
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Melhora o destaque da foto */
+    border: 4px solid #888; /* Adiciona uma borda cinza */
 }
 
 /* Descrição */
 .home-description {
-    max-width: 700px; /* Define uma largura máxima */
+    max-width: 600px; /* Define uma largura máxima */
     margin: 0 auto; /* Centraliza horizontalmente */
 }
 
