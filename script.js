@@ -18,16 +18,14 @@ menuClose.addEventListener('click', () => {
 // Mostra a seção correspondente ao link clicado
 menuLinks.forEach(link => {
     link.addEventListener('click', event => {
-        event.preventDefault(); // Impede o comportamento padrão do link
+        event.preventDefault();
 
         // Esconde todas as seções
         sections.forEach(section => section.classList.remove('visible'));
 
         // Mostra a seção clicada
         const targetSection = document.getElementById(link.dataset.section);
-        if (targetSection) {
-            targetSection.classList.add('visible');
-        }
+        targetSection.classList.add('visible');
 
         // Fecha o menu
         fullscreenMenu.classList.remove('visible');
