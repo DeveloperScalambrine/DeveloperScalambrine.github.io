@@ -1,61 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fullscreen Menu</title>
+    <title>Meu Site</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Botão para abrir o menu -->
-    <button id="menu-toggle">☰ Open Menu</button>
+    <!-- Botão do menu -->
+    <div id="menu-toggle">&#9776; Menu</div>
 
     <!-- Menu fullscreen -->
-    <div id="fullscreen-menu" class="hidden">
-        <button id="menu-close">✖ Close Menu</button>
-        <ul>
-            <li><a href="#home" class="menu-link" data-section="home">Home</a></li>
-            <li><a href="#about" class="menu-link" data-section="about">About</a></li>
-            <li><a href="#services" class="menu-link" data-section="services">Services</a></li>
-            <li><a href="#contact" class="menu-link" data-section="contact">Contact</a></li>
-        </ul>
+    <div id="fullscreen-menu">
+        <div>
+            <a href="#home" class="menu-link">Home</a>
+            <a href="#about" class="menu-link">About</a>
+            <a href="#services" class="menu-link">Services</a>
+            <a href="#contact" class="menu-link">Contact</a>
+        </div>
     </div>
 
-    <!-- Seções da página -->
-    <main>
-        <!-- Seção Home -->
-        <section id="home" class="content-section hidden">
-            <div class="home-container">
-                <img src="sua-foto.jpg" alt="Sua Foto" class="profile-photo">
-                <div class="home-description">
-                    <h1>Bem-vindo ao meu site!</h1>
-                    <p>
-                        Olá, sou [Seu Nome], apaixonado por tecnologia e dados. 
-                        Aqui compartilho um pouco da minha jornada como desenvolvedor e analista de dados.
-                        Sinta-se à vontade para explorar e conhecer mais sobre mim.
-                    </p>
-                </div>
-            </div>
-        </section>
+    <!-- Seções -->
+    <section id="home">
+        <div class="profile-photo">
+            <!-- Coloque sua foto aqui -->
+        </div>
+        <div class="home-description">
+            <p>Breve descrição sobre mim.</p>
+        </div>
+    </section>
 
-        <!-- Seção About -->
-        <section id="about" class="content-section hidden">
-            <h2>About</h2>
-            <p>Conteúdo sobre você ou sua empresa...</p>
-        </section>
+    <section id="about">
+        <h2>About</h2>
+        <p>Informações sobre o site ou sobre você.</p>
+    </section>
 
-        <!-- Seção Services -->
-        <section id="services" class="content-section hidden">
-            <h2>Services</h2>
-            <p>Descreva os serviços que você oferece...</p>
-        </section>
+    <section id="services">
+        <h2>Services</h2>
+        <p>Detalhes sobre os serviços oferecidos.</p>
+    </section>
 
-        <!-- Seção Contact -->
-        <section id="contact" class="content-section hidden">
-            <h2>Contact</h2>
-            <p>Informações de contato ou um formulário...</p>
-        </section>
-    </main>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Informações de contato.</p>
+    </section>
 
     <script src="script.js"></script>
 </body>
