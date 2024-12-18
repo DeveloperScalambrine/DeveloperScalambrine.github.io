@@ -5,6 +5,10 @@ const fullscreenMenu = document.getElementById('fullscreen-menu');
 const menuLinks = document.querySelectorAll('.menu-link');
 const sections = document.querySelectorAll('.content-section');
 
+window.onload = function () {
+    alert("Portfólio em atualização");
+};
+
 // Abre o menu
 menuToggle.addEventListener('click', () => {
     fullscreenMenu.classList.add('visible');
