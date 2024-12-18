@@ -27,4 +27,7 @@ a {
     display: block; /* Garante alinhamento no contêiner */
 }
 
+.carousel-control-prev-icon {
+    background-color: #41464b;
+}
 
