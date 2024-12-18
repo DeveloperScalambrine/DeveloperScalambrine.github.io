@@ -6,6 +6,6 @@
     margin: 0 auto; /* Centraliza no slide */
 }
 
-.carousel slide {
+.carousel-inner {
     background-color: black
 }
