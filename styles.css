@@ -1,8 +1,3 @@
-body {
-    background-color: #121212; /* Cor de fundo escura */
-    color: #e0e0e0; /* Cor do texto clara */
-}
-
 /* Seção Home */
 #home {
     padding: 50px 20px;
@@ -192,3 +187,7 @@ nav a {
     color: #f39c12;
 }
 
+body {
+    background-color: #121212; /* Cor de fundo escura */
+    color: #e0e0e0; /* Cor do texto clara */
+}
