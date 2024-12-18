@@ -1,11 +1,10 @@
 .carousel-item img {
-    width: 50px; /* Largura fixa */
-    height: 250px; /* Altura fixa */
-    object-fit: cover; /* Ajusta a imagem sem distorcer */
-    display: block; /* Garante o alinhamento */
-    margin: 0 auto; /* Centraliza no slide */
+    transform: scale(0.5); /* Reduz a imagem para 50% do tamanho original */
+    object-fit: cover; /* Garante que a imagem mantenha proporção */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    display: block; /* Garante alinhamento no contêiner */
 }
 
 .carousel-inner {
-    background-color: black
+    background-color: 'black'
 }
