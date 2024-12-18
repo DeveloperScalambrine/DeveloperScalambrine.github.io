@@ -1,6 +1,6 @@
 .carousel-item img {
-    width: 100%; /* Largura fixa */
-    height: 450%; /* Altura fixa */
+    width: 50%; /* Largura fixa */
+    height: 250%; /* Altura fixa */
     object-fit: cover; /* Ajusta a imagem sem distorcer */
     display: block; /* Garante o alinhamento */
     margin: 0 auto; /* Centraliza no slide */
