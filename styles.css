@@ -21,7 +21,7 @@ a {
 }
 
 .carousel-item img {
-    transform: scale(0.25); /* Reduz a imagem para 50% do tamanho original */
+    transform: scale(0.35); /* Reduz a imagem para 50% do tamanho original */
     object-fit: cover; /* Garante que a imagem mantenha proporção */
     margin: 0 auto; /* Centraliza a imagem horizontalmente */
     display: block; /* Garante alinhamento no contêiner */
