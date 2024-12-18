@@ -17,15 +17,15 @@
     <div id="fullscreen-menu" class="hidden">
         <button id="menu-close">✖ Close Menu</button>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home" class="menu-link" data-section="home">Home</a></li>
+            <li><a href="#about" class="menu-link" data-section="about">About</a></li>
+            <li><a href="#services" class="menu-link" data-section="services">Services</a></li>
+            <li><a href="#contact" class="menu-link" data-section="contact">Contact</a></li>
         </ul>
     </div>
     
     <main>
-        <section id="home">
+        <section id="home" class="content-section hidden">
               <div class="home-container">
                 <img src="WhatsApp Image 2024-12-06 at 16.40.25.jpeg" alt="Sua Foto" class="profile-photo">
                 <div class="home-description">
@@ -39,12 +39,12 @@
             </div>
         </section>
 
-        <section id="about">
+        <section id="about" class="content-section hidden">
             <h2>Sobre</h2>
             <p>Detalhes sobre o site ou sobre você.</p>
         </section>
 
-        <section id="projects">
+        <section id="projects" class="content-section hidden">
             <h2 class="title-project">Projetos</h2>
             <p class="description-project">Descrição dos projetos.</p>
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -87,7 +87,7 @@
 </div>
         </section>
 
-        <section id="contact">
+        <section id="contact"  class="content-section hidden">
             <h2>Contato</h2>
             <p>Informações de contato.</p>
         </section>
