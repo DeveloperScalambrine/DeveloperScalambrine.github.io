@@ -1,5 +1,7 @@
 .carousel-item img {
-    max-height: 400px; /* Define altura padrão */
-    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorção */
-    width: 100%; /* Garante que a largura ocupe o contêiner */
+    width: 800px; /* Largura fixa */
+    height: 600px; /* Altura fixa */
+    object-fit: cover; /* Mantém a proporção, cortando excesso */
+    margin: 0 auto; /* Centraliza a imagem no slide */
+    display: block; /* Garante o alinhamento no contêiner */
 }
