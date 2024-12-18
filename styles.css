@@ -56,3 +56,23 @@ nav a {
   text-decoration: none;
   border-bottom: 1px solid #555;
 }
+
+
+.projects {
+  background-color: #f0f0f0;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-project {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.description-projec {
+  font-size: 16px;
+  color: #666;
+}
+
