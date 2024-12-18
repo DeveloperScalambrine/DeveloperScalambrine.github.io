@@ -61,12 +61,12 @@ nav a {
 .title-project {
   font-size: 24px;
   font-weight: bold;
-  align: center;
+  text-align: center;
 }
 
 .description-project {
   font-size: 16px;
   color: #666;
-  align: center;
+  text-align: center;
 }
 
