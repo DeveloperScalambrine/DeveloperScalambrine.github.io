@@ -1,8 +1,7 @@
-.carousel slide {
-    background-color: "black"; /* Cor cinza-claro */
-    padding: 20px; /* Espaçamento interno opcional */
-    border-radius: 5px; /* Bordas arredondadas para um visual mais suave */
-    width: 100px;
-    height: 200px
+.carousel-item img {
+    width: 200px; /* Largura fixa */
+    height: 100px; /* Altura fixa */
+    object-fit: cover; /* Ajusta a imagem sem distorcer */
+    display: block; /* Garante o alinhamento */
+    margin: 0 auto; /* Centraliza no slide */
 }
-
