@@ -9,6 +9,11 @@
     min-height: 100vh;
 }
 
+body {
+    background-color: #121212; /* Cor de fundo escura */
+    color: #e0e0e0; /* Cor do texto clara */
+}
+
 /* Foto de perfil */
 .profile-photo {
     width: 150px;
@@ -38,6 +43,11 @@
 section {
     padding: 50px 20px;
     text-align: center;
+    display: none
+}
+
+section.content-section.visible {
+    display: block;
 }
 
 section h2 {
@@ -81,28 +91,6 @@ a {
 
 .carousel-control-prev, .carousel-control-next{
      background-color: #121212;
-}
-
-nav {
-  background-color: #222;
-  padding: 20px;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-  flex-direction: column;
-
-}
-
-nav li {
-  margin-bottom: 10px;
-}
-
-nav a {
-  color: #fff;
-  text-decoration: none;
-  border-bottom: 1px solid #555;
 }
 
 
@@ -187,7 +175,5 @@ nav a {
     color: #f39c12;
 }
 
-body {
-    background-color: #121212; /* Cor de fundo escura */
-    color: #e0e0e0; /* Cor do texto clara */
-}
+
+
