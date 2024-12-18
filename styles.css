@@ -1,32 +1,86 @@
-/* Estilo para a seção Home */
-#home {
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    height: 100vh;
     display: flex;
-    flex-direction: column; /* Coloca a foto e a descrição em coluna */
-    justify-content: center; /* Alinha o conteúdo verticalmente */
-    align-items: center; /* Centraliza horizontalmente */
-    text-align: center; /* Centraliza o texto */
-    min-height: 100vh;
-    gap: 20px; /* Espaço entre os elementos */
+    justify-content: center;
+    align-items: center;
 }
 
-/* Foto de perfil */
-.profile-photo {
-    width: 200px; /* Aumenta o tamanho da foto */
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Melhora o destaque da foto */
-    border: 4px solid #888; /* Adiciona uma borda cinza */
+/* Estilização do botão */
+#menu-toggle {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
 }
 
-/* Descrição */
-.home-description {
-    max-width: 600px;
+#menu-toggle:hover {
+    background-color: #ddd;
 }
 
-.home-description p {
-    font-size: 1.2rem; /* Torna o texto mais elegante */
-    line-height: 1.8; /* Aumenta o espaçamento entre linhas */
-    font-family: "Georgia", serif; /* Define uma fonte mais clássica */
-    color: #ddd; /* Ajusta o tom do branco */
+/* Menu fullscreen */
+#fullscreen-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+#fullscreen-menu.hidden {
+    display: none;
+}
+
+#menu-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+/* Links do menu */
+#fullscreen-menu ul {
+    list-style: none;
+    text-align: center;
+}
+
+#fullscreen-menu li {
+    margin: 20px 0;
+}
+
+#fullscreen-menu a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    transition: color 0.3s;
+}
+
+#fullscreen-menu a:hover {
+    color: #ddd;
 }
