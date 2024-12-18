@@ -1,8 +1,8 @@
 .carousel-inner {
-    background-color: black; /* Cor cinza-claro */
+    background-color: "black"; /* Cor cinza-claro */
     padding: 20px; /* Espaçamento interno opcional */
     border-radius: 5px; /* Bordas arredondadas para um visual mais suave */
-    width: 100px
+    width: 100px;
     height: 200px
 }
 
