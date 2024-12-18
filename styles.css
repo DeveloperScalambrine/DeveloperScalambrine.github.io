@@ -5,6 +5,13 @@
     display: block; /* Garante alinhamento no contêiner */
 }
 
-.carousel-inner {
-    background-color: 'black'
+.carousel-control-prev, .carousel-control-next {
+    background-color: #333; /* Cor de fundo personalizada */
+    color: white; /* Cor do ícone do botão */
+    border-radius: 50%; /* Para um formato arredondado */
 }
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #fff; /* Cor do ícone do botão */
+}
+
