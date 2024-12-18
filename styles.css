@@ -7,11 +7,11 @@
 
 .carousel-control-prev, .carousel-control-next {
     background-color: #333; /* Cor de fundo personalizada */
-    color: white; /* Cor do ícone do botão */
+    color: gray; /* Cor do ícone do botão */
     border-radius: 50%; /* Para um formato arredondado */
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
-    background-color: #FF0000; /* Cor do ícone do botão */
+    background-color: #FFF; /* Cor do ícone do botão */
 }
 
