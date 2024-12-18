@@ -1,7 +1,1 @@
-.carousel-item img {
-    width: 200px; /* Largura fixa */
-    height: 400px; /* Altura fixa */
-    object-fit: cover; /* Mantém a proporção, cortando excesso */
-    margin: 0 auto; /* Centraliza a imagem no slide */
-    display: block; /* Garante o alinhamento no contêiner */
-}
+
