@@ -34,3 +34,23 @@ a {
 .carousel-control-prev, .carousel-control-next{
      background-color: #121212;
 }
+
+nav {
+  background-color: #222;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #555;
+}
