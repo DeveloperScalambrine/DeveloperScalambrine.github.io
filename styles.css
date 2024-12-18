@@ -27,10 +27,10 @@ a {
     display: block; /* Garante alinhamento no contêiner */
 }
 
-.carousel-control-prev-icon {
+.carousel-control-prev-icon, carousel-control-next-icon {
     background-color: #121212;
 }
 
-.carousel-control-prev{
+.carousel-control-prev, .carousel-control-next{
      background-color: #121212;
 }
