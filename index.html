@@ -10,17 +10,20 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- Botão para abrir o menu -->
+    <button id="menu-toggle">☰ Open Menu</button>
 
+    <!-- Menu fullscreen -->
+    <div id="fullscreen-menu" class="hidden">
+        <button id="menu-close">✖ Close Menu</button>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    
     <main>
         <section id="home">
             <h1>Bem-vindo</h1>
