@@ -27,7 +27,7 @@ a {
     display: block; /* Garante alinhamento no contêiner */
 }
 
-.carousel-control-prev-icon, carousel-control-next-icon {
+.carousel-control-prev-icon, .carousel-control-next-icon {
     background-color: #121212;
 }
 
