@@ -1,49 +1,25 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Botão do menu -->
-    <div id="menu-toggle">&#9776; Menu</div>
+    <!-- Botão para abrir o menu -->
+    <button id="menu-toggle">☰ Open Menu</button>
 
     <!-- Menu fullscreen -->
-    <div id="fullscreen-menu">
-        <div>
-            <a href="#home" class="menu-link">Home</a>
-            <a href="#about" class="menu-link">About</a>
-            <a href="#services" class="menu-link">Services</a>
-            <a href="#contact" class="menu-link">Contact</a>
-        </div>
+    <div id="fullscreen-menu" class="hidden">
+        <button id="menu-close">✖ Close Menu</button>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </div>
-
-    <!-- Seções -->
-    <section id="home">
-        <div class="profile-photo">
-            <!-- Coloque sua foto aqui -->
-        </div>
-        <div class="home-description">
-            <p>Breve descrição sobre mim.</p>
-        </div>
-    </section>
-
-    <section id="about">
-        <h2>About</h2>
-        <p>Informações sobre o site ou sobre você.</p>
-    </section>
-
-    <section id="services">
-        <h2>Services</h2>
-        <p>Detalhes sobre os serviços oferecidos.</p>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Informações de contato.</p>
-    </section>
 
     <script src="script.js"></script>
 </body>
