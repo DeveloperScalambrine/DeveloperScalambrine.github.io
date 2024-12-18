@@ -43,6 +43,8 @@ nav {
 nav ul {
   list-style: none;
   padding: 0;
+  flex-direction: column;
+
 }
 
 nav li {
