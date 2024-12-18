@@ -116,6 +116,7 @@ a {
     border: none;
     cursor: pointer;
     z-index: 1000;
+    color: gray;
 }
 
 /* Menu fullscreen */
