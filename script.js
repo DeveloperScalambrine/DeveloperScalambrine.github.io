@@ -15,8 +15,16 @@ window.onload = function () {
  
 const projects = {
     "data-analysis": [
-        { title: "Horas estudadas", image: "Horas Estudadas por Matéria.png" },
-        { title: "Analise Metricas", image: "Analise das métricas.png" }
+        { 
+            title: "Horas estudadas", 
+            image: "Horas Estudadas por Matéria.png",
+            description: "Um estudo detalhado sobre o desempenho de horas estudadas."
+        },
+        { 
+             title: "Analise Metricas", 
+             image: "Analise das métricas.png", 
+             description: "Um estudo detalhado sobre o desempenho do atingimento de métricas."
+        }
     ],
     "web-dev": [
         { title: "Portfólio Web", image: "web-portfolio.jpg" },
