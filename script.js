@@ -18,7 +18,8 @@ const projects = {
         { 
             title: "Horas estudadas", 
             image: "Horas Estudadas por Matéria.png",
-            description: "Um estudo detalhado sobre o desempenho de horas estudadas."
+            description: "Um estudo detalhado sobre o desempenho de horas estudadas.",
+            url: "https://app.asana.com/0/1203244564929723/1209053995931847"
         },
         { 
              title: "Analise Metricas", 
@@ -89,6 +90,7 @@ dropdownItems.forEach(item => {
                     <div class="carousel-caption d-none d-md-block">
                         <h5>${project.title}</h5>
                         <p>${project.description}</p>
+                        <a href="${project.url}" class="btn btn-primary" target="_blank">Ver Projeto</a>
                     </div>
                 `;
                 carouselInner.appendChild(carouselItem);
