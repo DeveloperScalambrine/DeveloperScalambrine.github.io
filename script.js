@@ -64,6 +64,8 @@ dropdownItems.forEach(item => {
 
         const category = item.dataset.category;
 
+        dropdownButton.textContent = item.textContent;
+
         // Limpa o carrossel atual
         carouselInner.innerHTML = '';
 
