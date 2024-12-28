@@ -4,6 +4,9 @@ body {
     color: #bcd5ca;
 }
 
+main {
+    min-height: auto;
+}
 /* Seção Home */
 #home {
     padding: 50px 20px;
@@ -119,6 +122,13 @@ section {
     visibility: hidden; 
     opacity: 0; 
     transition: opacity 0.3s ease;
+}
+
+section.content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 section.content-section.visible {
