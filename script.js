@@ -33,7 +33,7 @@ menuLinks.forEach(link => {
 
             // Opcional: Ocultar outras seções e mostrar a seção alvo
           //  sections.forEach(section => section.classList.remove('visible'));
-          //  targetSection.classList.add('visible'); 
+            targetSection.classList.add('visible'); 
         }
 
         // Fechar o menu após a navegação
