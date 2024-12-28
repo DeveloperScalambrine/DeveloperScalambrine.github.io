@@ -4,6 +4,13 @@ body {
     color: #bcd5ca;
 }
 
+.lugrasimo-regular {
+  font-family: "Lugrasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 main {
     min-height: auto;
 }
