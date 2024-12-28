@@ -63,6 +63,8 @@ dropdownItems.forEach(item => {
         event.preventDefault();
 
         const category = item.dataset.category;
+        dropdownButton.textContent = item.textContent;
+
 
         // Limpa o carrossel atual
         carouselInner.innerHTML = '';
