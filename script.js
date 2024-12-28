@@ -90,7 +90,7 @@ dropdownItems.forEach(item => {
                     <div class="carousel-caption d-none d-md-block">
                         <h5>${project.title}</h5>
                         <p>${project.description}</p>
-                        <a href="${project.url}" class="btn btn-primary" target="_blank">Ver Projeto</a>
+                        <a href="${project.url}" class="btn btn-primary btn-sm" target="_blank">Ver Projeto</a>
                     </div>
                 `;
                 carouselInner.appendChild(carouselItem);
