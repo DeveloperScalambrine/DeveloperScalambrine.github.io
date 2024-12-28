@@ -223,3 +223,7 @@ a {
     color: #aaa;
 }
 
+.contact-description {
+    text-align: center;
+    max-width: 600px;    
+}
