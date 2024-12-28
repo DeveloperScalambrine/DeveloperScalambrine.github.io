@@ -19,22 +19,12 @@ menuClose.addEventListener('click', () => {
     fullscreenMenu.classList.remove('visible');
 });
 
-
-// Mostra a seção correspondente ao link clicado
- menuLinks.forEach(link => {
+menuLinks.forEach(link => {
     link.addEventListener('click', event => {
-        event.preventDefault(); // Impede o comportamento padrão do link
-
-        // Esconde todas as seções
-        sections.forEach(section => section.classList.remove('visible'));
-
-        // Mostra a seção clicada
-        const targetSection = document.getElementById(link.dataset.section);
-        if (targetSection) {
-            targetSection.classList.add('visible');
-        }
-
-        // Fecha o menu
-        fullscreenMenu.classList.remove('visible');
+        event.preventDefault();
+        const targetSection = document.querySelector(link.getAttribute('href')); // Usa o href diretamente
+        sections.forEach(section => section.classList.remove('visible')); // Remove visibilidade de todas as seções
+        if (targetSection) targetSection.classList.add('visible'); // Adiciona visibilidade à seção alvo
+        fullscreenMenu.classList.remove('visible'); // Fecha o menu
     });
 });
