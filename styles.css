@@ -262,7 +262,7 @@ p {
   font-family: 'Arial', sans-serif; /* Fonte moderna e limpa */
   font-size: 1rem; /* Tamanho de fonte confortável */
   line-height: 1.6; /* Maior espaçamento entre linhas para facilitar a leitura */
-  color: #333; /* Cor de texto suave para não ser agressiva aos olhos */
+  color: #555; /* Cor de texto suave para não ser agressiva aos olhos */
   margin: 15px 0; /* Margem superior e inferior para separar o parágrafo dos demais elementos */
   text-align: justify; /* Alinhamento justificado para um visual mais organizado */
   letter-spacing: 0.5px; /* Aumento do espaçamento entre as letras para uma leitura mais fluida */
