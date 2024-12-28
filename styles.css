@@ -85,9 +85,6 @@ body {
     color: #f39c12;
 }
 
-/* #home { 
-    background-color: #212529;
-}
 
 /* Foto de perfil */
 .profile-photo {
@@ -259,7 +256,7 @@ html {
     height: 30px;
 }
 
-p {
+p.home-description {
   font-family: 'Arial', sans-serif; /* Fonte moderna e limpa */
   font-size: 1rem; /* Tamanho de fonte confortável */
   line-height: 1.6; /* Maior espaçamento entre linhas para facilitar a leitura */
