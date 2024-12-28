@@ -9,7 +9,9 @@ const carouselInner = document.querySelector('.carousel-inner');
 
 window.onload = function () {
     alert("Portfólio em atualização");
-    const projects = {
+   };
+ 
+const projects = {
     "data-analysis": [
         { title: "Análise de Vendas", image: "Horas Estudadas por Matéria.png" },
         { title: "Visualização de CO2", image: "co2-visualization.jpg" }
@@ -23,7 +25,6 @@ window.onload = function () {
         { title: "Classificação de Imagens", image: "image-classification.jpg" }
         ]
     };
-};
 
 // Abre o menu
 menuToggle.addEventListener('click', () => {
