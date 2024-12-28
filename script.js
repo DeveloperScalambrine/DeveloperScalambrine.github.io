@@ -32,8 +32,8 @@ menuLinks.forEach(link => {
             targetSection.scrollIntoView({ behavior: 'smooth' });
 
             // Opcional: Ocultar outras seções e mostrar a seção alvo
-            sections.forEach(section => section.classList.remove('visible'));
-            targetSection.classList.add('visible'); 
+          //  sections.forEach(section => section.classList.remove('visible'));
+          //  targetSection.classList.add('visible'); 
         }
 
         // Fechar o menu após a navegação
