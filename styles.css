@@ -232,3 +232,29 @@ html {
     scroll-behavior: smooth;
 }
 
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.skills-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.skills-list img {
+    width: 30px;
+    height: 30px;
+}
+
