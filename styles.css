@@ -152,6 +152,8 @@ section h2 {
     font-size: 1.8rem;
     margin-bottom: 20px;
     color: #555;
+    font-weight: bolder;
+
 }
 
 section p {
@@ -160,6 +162,9 @@ section p {
     color: #bcd5ca;
     max-width: 600px;
     margin: auto;
+    font-weight: bolder;
+
+    
 }
 
 header, footer, section {
