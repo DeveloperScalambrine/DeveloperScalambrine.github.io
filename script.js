@@ -6,6 +6,8 @@ const menuLinks = document.querySelectorAll('.menu-link');
 const sections = document.querySelectorAll('.content-section');
 const dropdownItems = document.querySelectorAll('.dropdown-item');
 const carouselInner = document.querySelector('.carousel-inner');
+const dropdownButton = document.getElementById('dropdownMenuButton');
+
 
 window.onload = function () {
     alert("Portfólio em atualização");
