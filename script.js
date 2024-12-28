@@ -63,6 +63,7 @@ dropdownItems.forEach(item => {
         event.preventDefault();
 
         const category = item.dataset.category;
+
         dropdownButton.textContent = item.textContent;
 
 
@@ -91,3 +92,4 @@ dropdownItems.forEach(item => {
         });
     });
 });
+
