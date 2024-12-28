@@ -13,7 +13,7 @@ window.onload = function () {
  
 const projects = {
     "data-analysis": [
-        { title: "Análise de Vendas", image: "Horas Estudadas por Matéria.png" },
+        { title: "Horas estudadas", image: "Horas Estudadas por Matéria.png" },
         { title: "Visualização de CO2", image: "co2-visualization.jpg" }
     ],
     "web-dev": [
@@ -66,11 +66,12 @@ dropdownItems.forEach(item => {
 
         // Limpa o carrossel atual
         carouselInner.innerHTML = '';
-         // Adiciona os projetos da categoria selecionada
+
+        // Adiciona os projetos da categoria selecionada
         if (projects[category]) {
-            projects[category].forEach(project => {
+            projects[category].forEach((project, index) => {
                 const carouselItem = document.createElement('div');
-                carouselItem.className = 'carousel-item';
+                carouselItem.className = `carousel-item${index === 0 ? ' active' : ''}`;
                 carouselItem.innerHTML = `
                     <img src="${project.image}" class="d-block w-100" alt="${project.title}">
                     <div class="carousel-caption d-none d-md-block">
@@ -79,10 +80,12 @@ dropdownItems.forEach(item => {
                 `;
                 carouselInner.appendChild(carouselItem);
             });
-
-            // Define o primeiro item como ativo
-            const firstItem = carouselInner.querySelector('.carousel-item');
-            if (firstItem) firstItem.classList.add('active');
         }
+
+        // Inicia o carrossel manualmente, se necessário
+        const carousel = new bootstrap.Carousel(document.querySelector('#carouselExample'), {
+            interval: 2000,
+            wrap: true,
+        });
     });
 });
