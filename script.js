@@ -11,7 +11,7 @@ window.onload = function () {
     alert("Portfólio em atualização");
     const projects = {
     "data-analysis": [
-        { title: "Análise de Vendas", image: "sales-analysis.jpg" },
+        { title: "Análise de Vendas", image: "Horas Estudadas por Matéria.png" },
         { title: "Visualização de CO2", image: "co2-visualization.jpg" }
     ],
     "web-dev": [
