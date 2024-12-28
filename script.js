@@ -69,9 +69,9 @@ dropdownItems.forEach(item => {
 
         // Adiciona os projetos da categoria selecionada
         if (projects[category]) {
-            projects[category].forEach((project, index) => {
+            projects[category].forEach(project => {
                 const carouselItem = document.createElement('div');
-                carouselItem.className = `carousel-item${index === 0 ? ' active' : ''}`;
+                carouselItem.className = 'carousel-item';
                 carouselItem.innerHTML = `
                     <img src="${project.image}" class="d-block w-100" alt="${project.title}">
                     <div class="carousel-caption d-none d-md-block">
@@ -80,13 +80,11 @@ dropdownItems.forEach(item => {
                 `;
                 carouselInner.appendChild(carouselItem);
             });
-        }
 
-        // Inicia o carrossel manualmente, se necessário
-        const carousel = new bootstrap.Carousel(document.querySelector('#carouselExample'), {
-            interval: 2000,
-            wrap: true,
-        });
+            // Define o primeiro item como ativo
+            const firstItem = carouselInner.querySelector('.carousel-item');
+            if (firstItem) firstItem.classList.add('active');
+        }
     });
 });
 
