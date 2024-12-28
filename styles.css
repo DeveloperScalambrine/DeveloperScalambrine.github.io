@@ -116,11 +116,14 @@ body {
 section {
     padding: 50px 20px;
     text-align: center;
-    display: none
+    visibility: hidden; 
+    opacity: 0; 
+    transition: opacity 0.3s ease;
 }
 
 section.content-section.visible {
-    display: block;
+     visibility: visible; 
+     opacity: 1;
 }
 
 section h2 {
