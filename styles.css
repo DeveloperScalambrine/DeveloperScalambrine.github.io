@@ -18,6 +18,10 @@ main {
     min-height: 100vh;
 }
 
+#projects {
+   background-color: #212529;
+}
+
 #menu-toggle {
     position: fixed;
     top: 20px;
