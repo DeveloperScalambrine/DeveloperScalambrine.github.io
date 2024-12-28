@@ -6,7 +6,7 @@ body {
 
 .lugrasimo-regular {
   font-family: "Lugrasimo", serif;
-  font-weight: 400;
+  font-weight: bolder;
   font-style: normal;
 }
 
@@ -39,6 +39,7 @@ main {
     cursor: pointer;
     z-index: 1000;
     color: gray;
+    font-weight: bolder
 }
 
 /* Menu fullscreen */
