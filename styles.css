@@ -135,6 +135,11 @@ section p {
     color: #bcd5ca;
 }
 
+p {
+    max-width: 600px;
+    margin: auto;
+}
+
 header, footer, section {
     background-color: #1e1e1e; /* Fundo escuro para as seções */
 }
