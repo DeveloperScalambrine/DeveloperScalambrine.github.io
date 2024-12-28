@@ -16,7 +16,7 @@ window.onload = function () {
 const projects = {
     "data-analysis": [
         { title: "Horas estudadas", image: "Horas Estudadas por Matéria.png" },
-        { title: "Visualização de CO2", image: "co2-visualization.jpg" }
+        { title: "Analise Metricas", image: "Analise das métricas.png" }
     ],
     "web-dev": [
         { title: "Portfólio Web", image: "web-portfolio.jpg" },
