@@ -4,9 +4,25 @@ const menuClose = document.getElementById('menu-close');
 const fullscreenMenu = document.getElementById('fullscreen-menu');
 const menuLinks = document.querySelectorAll('.menu-link');
 const sections = document.querySelectorAll('.content-section');
+const dropdownItems = document.querySelectorAll('.dropdown-item');
+const carouselInner = document.querySelector('.carousel-inner');
 
 window.onload = function () {
     alert("Portfólio em atualização");
+    const projects = {
+    "data-analysis": [
+        { title: "Análise de Vendas", image: "sales-analysis.jpg" },
+        { title: "Visualização de CO2", image: "co2-visualization.jpg" }
+    ],
+    "web-dev": [
+        { title: "Portfólio Web", image: "web-portfolio.jpg" },
+        { title: "Loja Online", image: "ecommerce.jpg" }
+    ],
+    "ml-ai": [
+        { title: "Predição de Vendas", image: "sales-prediction.jpg" },
+        { title: "Classificação de Imagens", image: "image-classification.jpg" }
+        ]
+    };
 };
 
 // Abre o menu
@@ -38,5 +54,34 @@ menuLinks.forEach(link => {
 
         // Fechar o menu após a navegação
         fullscreenMenu.classList.remove('visible'); 
+    });
+});
+
+dropdownItems.forEach(item => {
+    item.addEventListener('click', event => {
+        event.preventDefault();
+
+        const category = item.dataset.category;
+
+        // Limpa o carrossel atual
+        carouselInner.innerHTML = '';
+         // Adiciona os projetos da categoria selecionada
+        if (projects[category]) {
+            projects[category].forEach(project => {
+                const carouselItem = document.createElement('div');
+                carouselItem.className = 'carousel-item';
+                carouselItem.innerHTML = `
+                    <img src="${project.image}" class="d-block w-100" alt="${project.title}">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>${project.title}</h5>
+                    </div>
+                `;
+                carouselInner.appendChild(carouselItem);
+            });
+
+            // Define o primeiro item como ativo
+            const firstItem = carouselInner.querySelector('.carousel-item');
+            if (firstItem) firstItem.classList.add('active');
+        }
     });
 });
