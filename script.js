@@ -16,13 +16,13 @@ window.onload = function () {
 const projects = {
     "data-analysis": [
         { 
-            title: "Horas estudadas", 
+            
             image: "Horas Estudadas por Matéria.png",
             description: "Um estudo detalhado sobre o desempenho de horas estudadas.",
             url: "https://docs.google.com/spreadsheets/d/1y3c59dxH-wa5HELci-bmUDgTjNeteIM2FdDuu8AjdKY/edit?gid=1203955528#gid=1203955528"
         },
         { 
-             title: "Analise Metricas", 
+            
              image: "Analise das métricas.png", 
              description: "Um estudo detalhado sobre o desempenho do atingimento de métricas."
         }
@@ -88,7 +88,7 @@ dropdownItems.forEach(item => {
                 carouselItem.innerHTML = `
                     <img src="${project.image}" class="d-block w-100" alt="${project.title}">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5 style="padding-top: 20px;">${project.title}</h5>
+                        
                         <p>${project.description}</p>
                         <a href="${project.url}" class="btn btn-primary btn-sm" target="_blank">Ver Projeto</a>
                     </div>
