@@ -42,6 +42,6 @@ menuLinks.forEach(link => {
       //  }
 
         // Fecha o menu
-        fullscreenMenu.classList.remove('visible');
+      //  fullscreenMenu.classList.remove('visible');
     });
 });
