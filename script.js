@@ -19,7 +19,7 @@ const projects = {
             title: "Horas estudadas", 
             image: "Horas Estudadas por Matéria.png",
             description: "Um estudo detalhado sobre o desempenho de horas estudadas.",
-            url: "https://app.asana.com/0/1203244564929723/1209053995931847"
+            url: "https://docs.google.com/spreadsheets/d/1y3c59dxH-wa5HELci-bmUDgTjNeteIM2FdDuu8AjdKY/edit?gid=1203955528#gid=1203955528"
         },
         { 
              title: "Analise Metricas", 
