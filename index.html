@@ -26,7 +26,7 @@
     
     <main>
         <section id="home" class="content-section hidden">
-              <div>
+              <div class="home-container">
                 <img src="WhatsApp Image 2024-12-06 at 16.40.25.jpeg" alt="Sua Foto" class="profile-photo">
                 <div class="home-description">
                     <h1>Bem-vindo ao meu site!</h1>
@@ -39,13 +39,16 @@
             </div>
         </section>
 
-        <section id="about" class="content-section hidden">
-            <h2>Sobre</h2>
-        </section>
-
+        <div class="home-container">
+             <section id="about" class="content-section hidden">
+                <h2>Sobre</h2>
+            </section>
+        </div>
+        
+        <div class="home-container">
         <section id="projects" class="content-section hidden">
             <h2>Projetos</h2>
-  <p>Selecione uma categoria para visualizar os projetos:</p>
+       <p>Selecione uma categoria para visualizar os projetos:</p>
 
   <!-- Dropdown -->
   <div class="dropdown">
@@ -96,8 +99,10 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-        </section>
+    </section>
+        </div>
 
+        <div class="home-container">
         <section id="contact"  class="content-section hidden">
             <h2 id="contact">Contato</h2>
             <p class="contact-description">Curioso para ver o que tenho desenvolvido? Explore meus projetos no GitHub!
@@ -119,6 +124,7 @@
                 <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
             </form>
         </section>
+        </div>
     </main>
 
     <footer>
