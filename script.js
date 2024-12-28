@@ -88,6 +88,7 @@ dropdownItems.forEach(item => {
                     <img src="${project.image}" class="d-block w-100" alt="${project.title}">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>${project.title}</h5>
+                        <p>${project.description}</p>
                     </div>
                 `;
                 carouselInner.appendChild(carouselItem);
