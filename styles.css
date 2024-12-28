@@ -2,11 +2,11 @@ body {
     font-family: 'Lugrasimo', sans-serif;
     background-color: #000; /* Fundo preto global */
     color: #bcd5ca;
+    font-weight: bolder;
 }
 
 .lugrasimo-regular {
   font-family: "Lugrasimo", serif;
-  font-weight: bolder;
   font-style: normal;
 }
 
