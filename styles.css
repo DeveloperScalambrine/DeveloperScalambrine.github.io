@@ -199,6 +199,12 @@ a {
      background-color: #121212;
 }
 
+.carousel-caption {
+    font-size: 14px; /* Ajuste para texto menor em telas menores */
+    padding: 10px; /* Adiciona espaço ao redor */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para contraste */
+    border-radius: 8px; /* Bordas arredondadas */
+}
 
 .title-project {
   font-size: 24px;
@@ -294,5 +300,12 @@ html {
     padding: 5px 10px;
 }
 
+/* Ajustes específicos para telas pequenas */
+@media (max-width: 768px) {
+    .carousel-caption {
+        bottom: 20px; /* Eleva a legenda na tela */
+        font-size: 12px; /* Reduz o tamanho da fonte */
+    }
+}
 
 
