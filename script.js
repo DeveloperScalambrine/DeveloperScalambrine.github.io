@@ -12,17 +12,17 @@ const dropdownButton = document.getElementById('dropdownMenuButton');
 window.onload = function () {
     alert("Portfólio em atualização");
    };
- 
+
 const projects = {
     "data-analysis": [
         { 
-            
+
             image: "Horas Estudadas por Matéria.png",
             description: "Um estudo detalhado sobre o desempenho de horas estudadas.",
             url: "https://docs.google.com/spreadsheets/d/1y3c59dxH-wa5HELci-bmUDgTjNeteIM2FdDuu8AjdKY/edit?gid=1203955528#gid=1203955528"
         },
         { 
-            
+
              image: "Analise das métricas.png", 
              description: "Um estudo detalhado sobre o desempenho do atingimento de métricas."
         }
@@ -82,26 +82,24 @@ dropdownItems.forEach(item => {
 
         // Adiciona os projetos da categoria selecionada
         if (projects[category]) {
-          projects[category].forEach(project => {
+            projects[category].forEach(project => {
                 const carouselItem = document.createElement('div');
                 carouselItem.className = 'carousel-item';
                 carouselItem.innerHTML = `
                     <img src="${project.image}" class="d-block w-100" alt="${project.title}">
                     <div class="carousel-caption d-none d-md-block">
                         
+                        <p>${project.description}</p>
                         <p class="description">${project.description}</p>
                         <a href="${project.url}" class="btn btn-primary btn-sm" target="_blank">Ver Projeto</a>
                     </div>
                 `;
                 carouselInner.appendChild(carouselItem);
-  });
+            });
 
-  // Certifique-se de que o primeiro item esteja ativo
-  const firstItem = carouselInner.querySelector('.carousel-item');
-  if (firstItem) {
-    firstItem.classList.add('active');
+            // Define o primeiro item como ativo
+            const firstItem = carouselInner.querySelector('.carousel-item');
+            if (firstItem) firstItem.classList.add('active');
         }
     });
 });
-
-
