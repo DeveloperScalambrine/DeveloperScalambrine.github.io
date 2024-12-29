@@ -82,18 +82,18 @@ dropdownItems.forEach(item => {
 
         // Adiciona os projetos da categoria selecionada
         if (projects[category]) {
-           projects[category].forEach(project => {
-    const carouselItem = document.createElement('div');
-    carouselItem.className = 'carousel-item';
-
-    carouselItem.innerHTML = `
-      <img src="${project.image}" class="d-block w-100" alt="${project.title}">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>${project.title}</h5>
-        <p class="description">${project.description}</p> </div>
-    `;
-
-    carouselInner.appendChild(carouselItem);
+          projects[category].forEach(project => {
+                const carouselItem = document.createElement('div');
+                carouselItem.className = 'carousel-item';
+                carouselItem.innerHTML = `
+                    <img src="${project.image}" class="d-block w-100" alt="${project.title}">
+                    <div class="carousel-caption d-none d-md-block">
+                        
+                        <p class="description">${project.description}</p>
+                        <a href="${project.url}" class="btn btn-primary btn-sm" target="_blank">Ver Projeto</a>
+                    </div>
+                `;
+                carouselInner.appendChild(carouselItem);
   });
 
   // Certifique-se de que o primeiro item esteja ativo
