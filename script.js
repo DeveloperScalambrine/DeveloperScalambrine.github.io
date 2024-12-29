@@ -89,7 +89,7 @@ dropdownItems.forEach(item => {
                     <img src="${project.image}" class="d-block w-100" alt="${project.title}">
                     <div class="carousel-caption d-none d-md-block">
                         
-                        <p>${project.description}</p>
+                        <p class="description">${project.description}</p>
                         <a href="${project.url}" class="btn btn-primary btn-sm" target="_blank">Ver Projeto</a>
                     </div>
                 `;
