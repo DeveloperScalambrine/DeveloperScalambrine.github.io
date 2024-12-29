@@ -202,7 +202,8 @@ a {
 .carousel-caption {
     font-size: 14px; /* Ajuste para texto menor em telas menores */
     padding: 10px; /* Adiciona espaço ao redor */
-    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para contraste */
+    background-color: rgba(0, 0, 0, 0.6); /* Fundo semitransparente para contraste */
+    color: #fff;
     border-radius: 8px; /* Bordas arredondadas */
 }
 
