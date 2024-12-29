@@ -88,7 +88,7 @@ dropdownItems.forEach(item => {
                 carouselItem.innerHTML = `
                     <img src="${project.image}" class="d-block w-100" alt="${project.title}">
                     <div class="carousel-caption d-none d-md-block">
-                        <p style="color:white;">Um estudo detalhado sobre o desempenho de horas estudadas.</p>
+                        <p>Um estudo detalhado sobre o desempenho de horas estudadas.</p>
                         <a href="${project.url}" class="btn btn-primary btn-sm" target="_blank">Ver Projeto</a>
                     </div>
                 `;
