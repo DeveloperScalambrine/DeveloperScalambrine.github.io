@@ -85,6 +85,7 @@ dropdownItems.forEach(item => {
             projects[category].forEach(project => {
                 const carouselItem = document.createElement('div');
                 carouselItem.className = 'carousel-item';
+                carouselItem.className = 'description';
                 carouselItem.innerHTML = `
                     <img src="${project.image}" class="d-block w-100" alt="${project.title}">
                     <div class="carousel-caption d-none d-md-block">
