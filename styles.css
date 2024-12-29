@@ -10,6 +10,21 @@ body {
   font-style: normal;
 }
 
+.description {
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+
+/* Ajustes para dispositivos móveis */
+@media (max-width: 768px) {
+  .description {
+    /* Garanta que a descrição seja visível e tenha um tamanho adequado */
+    display: block;
+    font-size: 14px;
+  }
+}
+
 
 main {
     min-height: auto;
