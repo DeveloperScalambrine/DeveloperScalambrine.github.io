@@ -302,11 +302,11 @@ html {
 }
 
 /* Ajustes específicos para telas pequenas */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .description {
         bottom: 20px; /* Eleva a legenda na tela */
-        font-size: 12px; /* Reduz o tamanho da fonte */
-    }
-}
+/*        font-size: 12px; /* Reduz o tamanho da fonte */
+ /*   } */
+/* } */
 
 
