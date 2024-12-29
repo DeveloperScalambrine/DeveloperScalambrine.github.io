@@ -303,7 +303,7 @@ html {
 
 /* Ajustes específicos para telas pequenas */
 @media (max-width: 768px) {
-    .carousel-caption {
+    .description {
         bottom: 20px; /* Eleva a legenda na tela */
         font-size: 12px; /* Reduz o tamanho da fonte */
     }
