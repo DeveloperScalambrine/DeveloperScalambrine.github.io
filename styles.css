@@ -334,6 +334,16 @@ a {
   background-color: #333;
 }
 
+.dropdown-menu {
+    border: none;
+    background: transparent;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.dropdown-item:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
 
 /*
 .carousel-control-prev, .carousel-control-next {
