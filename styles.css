@@ -321,28 +321,16 @@ a {
 }
 
 .dropdown {
+  background-color: #222;
   color: #fff;
   padding: 10px;
 }
-
 .dropdown-item {
   padding: 5px 10px;
 }
-
 .dropdown-item:hover {
   background-color: #333;
 }
-
-.dropdown-menu {
-   opacity: 0;
-    transform: translateY(-10px);
-    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-}
-
-.dropdown-item:hover {
-    background-color: rgba(0, 0, 0, 0.05);
-}
-
 
 /*
 .carousel-control-prev, .carousel-control-next {
