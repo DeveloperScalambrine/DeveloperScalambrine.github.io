@@ -339,11 +339,6 @@ a {
     transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
-.show .dropdown-menu {
-    opacity: 1;
-    transform: translateY(0);
-}
-
 .dropdown-item:hover {
     background-color: rgba(0, 0, 0, 0.05);
 }
