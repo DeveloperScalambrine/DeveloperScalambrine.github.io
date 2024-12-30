@@ -450,6 +450,40 @@ html {
     padding: 5px 10px;
 }
 
+#contato {
+  text-align: center;
+  padding: 50px;
+  background-color: #f2f2f2;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #333;
+  font-size: 24px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type="email"] {
+  padding: 10px;
+  width: 250px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.copyright {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
 /* Ajustes específicos para telas pequenas */
 /* @media (max-width: 768px) {
     .description {
