@@ -18,19 +18,19 @@ const projects = {
         { 
 
             image: "Horas Estudadas por Matéria.png",
-            description: "Um estudo detalhado sobre o desempenho de horas estudadas.",
+            description: Um estudo detalhado sobre o desempenho de horas estudadas.,
             url: "https://docs.google.com/spreadsheets/d/1y3c59dxH-wa5HELci-bmUDgTjNeteIM2FdDuu8AjdKY/edit?gid=1203955528#gid=1203955528"
         },
         { 
 
              image: "Analise das métricas.png", 
-             description: "Um estudo detalhado sobre o desempenho do atingimento de métricas."
+             description: Um estudo detalhado sobre o desempenho do atingimento de métricas.
         }
     ],
     "ai": [
         {
             image: "bot.png",
-            description: "chatbot integrado com a AI do google.",
+            description: chatbot integrado com a AI do google.,
             url: "https://huggingface.co/scalambrine"
         }
     ],
