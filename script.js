@@ -27,9 +27,12 @@ const projects = {
              description: "Um estudo detalhado sobre o desempenho do atingimento de métricas."
         }
     ],
-    "web-dev": [
-        { title: "Portfólio Web", image: "web-portfolio.jpg" },
-        { title: "Loja Online", image: "ecommerce.jpg" }
+    "ai": [
+        {
+            image: "Horas Estudadas por Matéria.png",
+            description: "chatbot integrado com a AI do google.",
+            url: "https://docs.google.com/spreadsheets/d/1y3c59dxH-wa5HELci-bmUDgTjNeteIM2FdDuu8AjdKY/edit?gid=1203955528#gid=1203955528"
+        }
     ],
     "ml-ai": [
         { title: "Predição de Vendas", image: "sales-prediction.jpg" },
