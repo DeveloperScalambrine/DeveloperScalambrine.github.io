@@ -63,8 +63,34 @@ button:hover {
 main {
     min-height: auto;
 }
-/* Seção Home */
+
 #home {
+    background: linear-gradient(to bottom, #1f1f1f, #333);
+    color: #f0f0f0;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#home img {
+    border-radius: 50%;
+    border: 3px solid #4caf50;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+#home h1 {
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 10px;
+}
+
+#home p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+}
+/* Seção Home */
+/* #home {
     padding: 50px 20px;
     display: flex;
     justify-content: center;
@@ -73,9 +99,64 @@ main {
     background-color: #212529;
     min-height: 100vh;
 }
-
+*/
+/*
 #projects {
    background-color: #1e1e1e;
+}
+*/
+/* Melhorias na seção Projetos */
+#projects {
+    background: #282c34;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#projects h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #4caf50;
+}
+
+#projects .dropdown {
+    margin: 20px auto;
+    width: 250px;
+}
+
+#projects .carousel-inner {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #1c1c1c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#projects .carousel-caption {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#projects .carousel-caption p {
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+#projects .carousel-caption a {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 0.8em;
+    padding: 5px 10px;
+    background: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+#projects .carousel-caption a:hover {
+    background: #45a049;
 }
 
 #about { 
@@ -205,8 +286,10 @@ a {
     color: #bb86fc; /* Cor dos links em roxo */
 }
 
+
+/*
 .carousel-control-prev, .carousel-control-next {
-    background-color: #333; /* Cor de fundo dos botões */
+    background-color: #333; 
     color: white;
 }
 
@@ -214,11 +297,12 @@ a {
     background-color: #fff;
 }
 
+
 .carousel-item img {
-    transform: scale(0.35); /* Reduz a imagem para 50% do tamanho original */
-    object-fit: cover; /* Garante que a imagem mantenha proporção */
-    margin: 0 auto; /* Centraliza a imagem horizontalmente */
-    display: block; /* Garante alinhamento no contêiner */
+    transform: scale(0.35); 
+    object-fit: cover; 
+    margin: 0 auto; 
+    display: block; 
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
@@ -230,12 +314,12 @@ a {
 }
 
 .carousel-caption {
-    font-size: 14px; /* Ajuste para texto menor em telas menores */
-    padding: 10px; /* Adiciona espaço ao redor */
-    background-color: rgba(0, 0, 0, 0.6); /* Fundo semitransparente para contraste */
+    font-size: 14px;     padding: 10px; 
+    background-color: rgba(0, 0, 0, 0.6);
     color: #fff;
-    border-radius: 8px; /* Bordas arredondadas */
-}
+    border-radius: 8px; 
+} 
+*/
 
 .title-project {
   font-size: 24px;
