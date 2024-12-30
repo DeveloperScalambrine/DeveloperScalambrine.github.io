@@ -29,7 +29,7 @@ const projects = {
     ],
     "ai": [
         {
-            image: "bot.png",
+            image: "bot-at1.png",
             description: "ChatBot integrado com a AI do google.",
             url: "https://huggingface.co/scalambrine"
         },
