@@ -456,5 +456,9 @@ html {
 /*        font-size: 12px; /* Reduz o tamanho da fonte */
  /*   } */
 /* } */
+img {
+  width: 50vw;
+  height: 30vh;
+}
 
 
