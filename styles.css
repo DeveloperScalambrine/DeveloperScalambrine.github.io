@@ -159,9 +159,44 @@ main {
     background: #45a049;
 }
 
-#about { 
-    background-color: #212529;
+#about {
+    background-color: #1e1e2f;
+    color: #e0e0e0;
+    padding: 50px 20px;
+    margin: 0 auto;
+    text-align: center;
 }
+
+#about .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #90caf9; /* Azul claro para destacar o título */
+}
+
+#about .section-description {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+#about .skills-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#about .icon {
+    width: 60px;
+    height: 60px;
+    transition: transform 0.3s ease;
+}
+
+#about .icon:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 
 /* Menu fullscreen */
 #fullscreen-menu {
