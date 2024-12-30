@@ -29,9 +29,9 @@ const projects = {
     ],
     "ai": [
         {
-            image: "Horas Estudadas por Matéria.png",
+            image: "bot.png",
             description: "chatbot integrado com a AI do google.",
-            url: "https://docs.google.com/spreadsheets/d/1y3c59dxH-wa5HELci-bmUDgTjNeteIM2FdDuu8AjdKY/edit?gid=1203955528#gid=1203955528"
+            url: "https://huggingface.co/scalambrine"
         }
     ],
     "ml-ai": [
