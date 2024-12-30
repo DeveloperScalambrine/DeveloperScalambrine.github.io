@@ -453,7 +453,13 @@ html {
 #contato {
   text-align: center;
   padding: 50px;
-  background-color: #f2f2f2;
+  background-color: #f2f2f2; /* Cor de fundo suave */
+}
+
+#contato h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .social-icons a {
@@ -477,11 +483,6 @@ button {
   color: white;
   border: none;
   cursor: pointer;
-}
-
-.copyright {
-  margin-top: 20px;
-  font-size: 14px;
 }
 
 /* Ajustes específicos para telas pequenas */
