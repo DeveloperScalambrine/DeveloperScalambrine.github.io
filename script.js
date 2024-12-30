@@ -19,7 +19,7 @@ const projects = {
 
             image: "Horas Estudadas por Matéria.png",
             description: "Um estudo detalhado sobre o desempenho de horas estudadas.",
-            url: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fhupdata.com%2Fproblemas-resolvidos-com-analise-de-dados%2F&psig=AOvVaw3sUP0UmFJK7oM-3kxdmvg4&ust=1735600691408000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOCo78mOzooDFQAAAAAdAAAAABAE"
+            url: "https://docs.google.com/spreadsheets/d/1y3c59dxH-wa5HELci-bmUDgTjNeteIM2FdDuu8AjdKY/edit?gid=1203955528#gid=1203955528"
         },
         { 
 
