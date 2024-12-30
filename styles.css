@@ -158,12 +158,6 @@ main {
     background: #45a049;
 }
 
-.carousel-item img {
-    transform: scale(0.35); 
-    object-fit: cover; 
-    margin: 0 auto; 
-    display: block;
-
 #about {
     background-color: #1e1e2f;
     color: #e0e0e0;
