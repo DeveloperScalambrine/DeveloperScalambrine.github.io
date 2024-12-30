@@ -87,6 +87,7 @@ dropdownItems.forEach(item => {
 
         // Limpa o carrossel atual
         carouselInner.innerHTML = '';
+      
 
         // Adiciona os projetos da categoria selecionada
         if (projects[category]) {
@@ -99,6 +100,10 @@ dropdownItems.forEach(item => {
                     <div class="carousel-caption d-none d-md-block">
                         <p>"${project.description}"</p>
                         <a href="${project.url}" class="btn btn-primary btn-sm" target="_blank">Ver Projeto</a>
+                          <div class="carousel-caption">
+                                <h5>ddddddddddddddddddd</h5>
+                            <p>hdhdhhdhdhdhhdhdhdhdhhdh</p>
+                          </div>
                     </div>
                  </div>
                 `;
