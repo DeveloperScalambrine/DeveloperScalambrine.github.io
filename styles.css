@@ -328,7 +328,9 @@ a {
   padding: 5px 10px;
 }
 .dropdown-item:hover {
-  background-color: red;
+  background-color: green;
+  color: white;
+    
 }
 
 /*
