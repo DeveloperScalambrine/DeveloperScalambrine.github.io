@@ -41,7 +41,11 @@ main {
 }
 
 #projects {
-   background-color: #212529;
+   background-color: #1e1e1e;
+}
+
+#about { 
+    background-color: #212529;
 }
 
 #menu-toggle {
