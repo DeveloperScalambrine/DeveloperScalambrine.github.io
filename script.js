@@ -34,7 +34,7 @@ const projects = {
             url: "https://huggingface.co/scalambrine"
         },
         {
-             image: "bot.png", 
+             image: "bot-at.png", 
              description: "ChatBot analisador de sentimentos",
              url: "https://huggingface.co/scalambrine"
         }
