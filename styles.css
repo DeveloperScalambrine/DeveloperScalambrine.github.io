@@ -59,6 +59,24 @@ button:hover {
   }
 }
 
+.responsive-carousel {
+  position: relative;
+}
+
+.responsive-carousel img {
+  width: 100%;
+  height: auto;
+}
+
+.responsive-carousel .carousel-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  padding: 20px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 
 main {
     min-height: auto;
