@@ -6,6 +6,13 @@ body {
     padding: 20px;
 }
 
+button#dropdownMenuButton.btn.btn-secondary.dropdown-toggle {
+    color: #483D8B;
+    Font: 16px Roboto, sans-serif;
+    background: #F0FFFF;
+    padding: 6px 12px;
+}
+
 /* Foto de perfil */
 .profile-photo {
     width: 150px;
@@ -116,7 +123,7 @@ main {
 */
 /* Melhorias na seção Projetos */
 #projects {
-    background: aliceblue;
+    background: darkslateblue;
     color: #f0f0f0;
     text-align: center;
     padding: 50px 20px;
@@ -124,8 +131,8 @@ main {
 
 #projects h2 {
     margin-bottom: 20px;
-    font-size: 2em;
-    color: #4caf50;
+    font-size: 24px;
+    color: #F2F2F2;
 }
 
 #projects .dropdown {
@@ -342,6 +349,12 @@ a {
   background-color: green;
   color: white;
     
+}
+
+div.carousel-inner {
+    background: #F2F2F2;
+    margin: 30px 0px 0 px;
+    padding: 20px;
 }
 
 /*
