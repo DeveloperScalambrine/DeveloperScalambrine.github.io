@@ -304,13 +304,6 @@ section.content-section.visible {
      opacity: 1;
 }
 
-section.content-section.text-center.visible {
-    color: E0E0E0;
-    font: 16px Roboto, sans-serif;
-    background: #F2F2F2;
-    padding: 50px 20px;
-}
-
 section h2 {
     font-size: 1.8rem;
     margin-bottom: 20px;
@@ -539,4 +532,9 @@ img {
   height: 50vh;
 }
 
-
+section.content-section.text-center.visible {
+    color: E0E0E0;
+    font: 16px Roboto, sans-serif;
+    background: #F2F2F2;
+    padding: 50px 20px;
+}
