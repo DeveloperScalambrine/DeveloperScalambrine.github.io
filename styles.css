@@ -446,7 +446,21 @@ a {
 
 .contact-description {
     text-align: center;
+    color: #F2F2F2;
     max-width: 600px;    
+}
+
+#contact h2 {
+    color: #F2F2F2;
+    font: 28px Roboto, sans-serif;
+    margin: 0px 0 px 20px;
+}
+
+#contact button {
+    color: #483D8B;
+    font: 16px Roboto, sans-serif;
+    background: #F2F2F2;
+    padding: 10px 20px;
 }
 
 html {
