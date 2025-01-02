@@ -40,6 +40,8 @@ button#menu-toggle {
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     padding: 10px 20px;
+    font-weight: bolder;
+
 
 }
 
@@ -72,7 +74,7 @@ main {
 }
 
 #home {
-    background: linear-gradient(to bottom, #1f1f1f, #333);
+    background: #f2f2f2;
     color: #f0f0f0;
     text-align: center;
     padding: 50px 20px;
@@ -80,7 +82,7 @@ main {
 
 #home img {
     border-radius: 50%;
-    border: 3px solid #4caf50;
+    border: 3px solid #90caf9;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     margin-bottom: 20px;
 }
@@ -269,15 +271,16 @@ main {
 }
 
 .home-description h1 {
-    font-size: 2rem;
+    font-size: 24px;
     margin-bottom: 20px;
-    color: #555;
+    color: cornflowerblue;
+    font-weight: bold;
 }
 
 .home-description p {
     font-size: 1rem;
     line-height: 1.6;
-    color: #bcd5ca;
+    color: darkslateblue;
 }
 
 /* Seções genéricas */
