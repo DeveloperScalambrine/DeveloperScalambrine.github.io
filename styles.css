@@ -533,8 +533,7 @@ img {
 }
 
 section.content-section.text-center.visible {
-    color: E0E0E0;
+    color: #F2F2F2;
     font: 16px Roboto, sans-serif;
-    background: #F2F2F2;
     padding: 50px 20px;
 }
