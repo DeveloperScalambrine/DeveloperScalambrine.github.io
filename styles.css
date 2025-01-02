@@ -445,20 +445,10 @@ a {
     color: #aaa;
 }
 
-#contato {
-    background: darkslateblue;
-}
-
 .contato-description {
     text-align: center;
     color: #F2F2F2;
     max-width: 600px;    
-}
-
-#contato h2 {
-    color: #F2F2F2;
-    font: 28px Roboto, sans-serif;
-    margin: 0px 0 px 20px;
 }
 
 #contato button {
@@ -508,13 +498,18 @@ html {
 #contato {
   text-align: center;
   padding: 50px;
-  background-color: #f2f2f2; /* Cor de fundo suave */
+  background-color: darkslateblue; /* Cor de fundo suave */
 }
 
 #contato h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #F2F2F2;
+}
+
+#contato p {
+  color: #F2F2F2;
 }
 
 .social-icons a {
