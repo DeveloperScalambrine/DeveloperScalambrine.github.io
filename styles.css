@@ -62,7 +62,7 @@ button:hover {
 }
 
 /* Ajustes para dispositivos móveis */
-@media (max-width: 78px) {
+@media (max-width: 768px) {
   .description {
     /* Garanta que a descrição seja visível e tenha um tamanho adequado */
     display: block;
@@ -538,4 +538,8 @@ section.content-section.text-center.visible {
     font: 24px Roboto, sans-serif;
     padding: 50px 20px;
     font-weight: bold;
+}
+
+.d-none {
+    display: none!important;
 }
