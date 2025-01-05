@@ -62,7 +62,7 @@ button:hover {
 }
 
 /* Ajustes para dispositivos móveis */
-@media (max-width: 768px) {
+@media (max-width: 468px) {
   .description {
     /* Garanta que a descrição seja visível e tenha um tamanho adequado */
     display: block;
