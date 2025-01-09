@@ -549,11 +549,10 @@ button, input, optgroup, select, textarea {
 img {
   height: 50vh;
 }
-
+*/
 section.content-section.text-center.visible {
     color: #F2F2F2;
     font: 24px Roboto, sans-serif;
     padding: 50px 20px;
-    font-weight: bold;
+    font-weight: 400;
 }
-
