@@ -191,6 +191,7 @@ main {
     color: #483D8B;
     font-size: 24px;
     margin: 0px 76px 30px;
+    font-weight: 400;
 }
 
 #about .skills-icons {
