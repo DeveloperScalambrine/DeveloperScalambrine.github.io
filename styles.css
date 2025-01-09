@@ -511,6 +511,7 @@ html {
 }
 
 #contato p {
+  font-family: 'Roboto', sans-serif;
   color: #F2F2F2;
   font-size: 24px;
   font-weight: 400;
@@ -531,6 +532,12 @@ input[type="email"] {
   width: 250px;
 }
 
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    /* font-size: inherit; */
+    line-height: inherit;
+}
 
 /* Ajustes específicos para telas pequenas */
 /* @media (max-width: 768px) {
@@ -550,6 +557,3 @@ section.content-section.text-center.visible {
     font-weight: bold;
 }
 
-.d-none {
-    display: none!important;
-}
