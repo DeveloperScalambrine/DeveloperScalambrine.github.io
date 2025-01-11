@@ -66,6 +66,7 @@ button:hover {
     /* Garanta que a descrição seja visível e tenha um tamanho adequado */
     display: block;
     font-size: 14px;
+    max-height: 400px;
   }
 }
 
