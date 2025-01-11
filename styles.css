@@ -562,7 +562,7 @@ section {
   max-width: 800px;
   padding: 20px;
   opacity: 0; /* Inicialmente invisível */
-  transform: scaleY(0); /* Reduzido verticalmente */
+  transform: scaleX(0); /* Reduzido verticalmente */
   transform-origin: top;
   transition: opacity 1.9s ease, transform 1.9s ease; /* Transição suave */
 }
@@ -573,8 +573,8 @@ section.visible {
 }
 
 button#menu-toggle {
-  background: #444;
-  color: white;
+  background: darkslateblue;
+  color:  #F5F5F5;
   border: none;
   padding: 0.5rem 1rem;
   font-size: 1.2rem;
