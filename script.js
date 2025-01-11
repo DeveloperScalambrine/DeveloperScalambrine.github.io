@@ -113,11 +113,18 @@ dropdownItems.forEach(item => {
     });
 });
 
-            document.addEventListener("DOMContentLoaded", () => {
+  document.addEventListener("DOMContentLoaded", () => {
   const sections = document.querySelectorAll("section");
+
+  // Mostrar a seção "Home" imediatamente
+  const homeSection = document.getElementById("home");
+  homeSection.hidden = false;
+  homeSection.classList.add("visible");
 
   const revealSection = () => {
     sections.forEach((section) => {
+      if (section.id === "home") return; // Ignorar "Home", já está visível
+
       const rect = section.getBoundingClientRect();
       if (rect.top <= window.innerHeight / 1.2) {
         section.hidden = false;
@@ -127,6 +134,5 @@ dropdownItems.forEach(item => {
   };
 
   window.addEventListener("scroll", revealSection);
-  revealSection(); // Chamar ao carregar para verificar se alguma seção já está visível
+  revealSection(); // Chamar ao carregar para verificar outras seções
 });
-
