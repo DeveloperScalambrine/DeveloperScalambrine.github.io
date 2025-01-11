@@ -567,7 +567,7 @@ section {
 
 section.visible {
   opacity: 1; /* Visível */
-  transform: scaleY(1); /* Expandido para o tamanho original */
+  transform: scaleX(1); /* Expandido para o tamanho original */
 }
 
 button#menu-toggle {
@@ -585,5 +585,5 @@ button#menu-toggle {
 
 button#menu-toggle.visible {
   opacity: 1; /* Visível */
-  transform: translateY(0); /* Posição original */
+  transform: translateX(0); /* Posição original */
 }
