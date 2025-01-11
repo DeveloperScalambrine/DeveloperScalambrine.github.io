@@ -592,6 +592,6 @@ button#menu-toggle.visible {
     line-height: 1.8;
     color: #F2F2F2;
     background: darkslateblue;
-    font-weight: bold;
+    font-weight: 400;
 }
 
