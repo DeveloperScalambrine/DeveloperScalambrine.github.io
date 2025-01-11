@@ -7,12 +7,12 @@ const sections = document.querySelectorAll('.content-section');
 const dropdownItems = document.querySelectorAll('.dropdown-item');
 const carouselInner = document.querySelector('.carousel-inner');
 const dropdownButton = document.getElementById('dropdownMenuButton');
-// https://docs.google.com/spreadsheets/d/1y3c59dxH-wa5HELci-bmUDgTjNeteIM2FdDuu8AjdKY/edit?gid=1203955528#gid=1203955528
 
+/*
 window.onload = function () {
     alert("Portfólio em atualização");
    };
-
+*/
 const projects = {
     "data-analysis": [
         { 
@@ -120,6 +120,8 @@ dropdownItems.forEach(item => {
   const homeSection = document.getElementById("home");
   homeSection.hidden = false;
   homeSection.classList.add("visible");
+  menuToggle.hidden = false;
+  menuToggle.classList.add("visible");
 
   const revealSection = () => {
     sections.forEach((section) => {
