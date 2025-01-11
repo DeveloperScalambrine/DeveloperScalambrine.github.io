@@ -314,19 +314,17 @@ section h2 {
     font-size: 1.8rem;
     margin-bottom: 20px;
     color: #555;
-    font-weight: bolder;
+    font-weight: revert;
 
 }
 
 section p {
-    font-size: 1rem;
+    font-size: 18px;
     line-height: 1.6;
-    color: #bcd5ca;
+    color: #f2f2f2;
     max-width: 600px;
     margin: auto;
-    font-weight: 400;
-
-    
+    font-weight: 400;    
 }
 
 header, footer, section {
@@ -495,13 +493,13 @@ html {
     background: darkslateblue;
 }
 
-#contato {
+#contact {
   text-align: center;
   padding: 50px;
   background-color: darkslateblue; /* Cor de fundo suave */
 }
 
-#contato h2 {
+#contact h2 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -510,7 +508,7 @@ html {
   font-weight: revert;
 }
 
-#contato p {
+#contact p {
   font-family: 'Roboto', sans-serif;
   color: #F2F2F2;
   font-size: 24px;
