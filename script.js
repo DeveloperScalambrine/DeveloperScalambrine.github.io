@@ -8,11 +8,11 @@ const dropdownItems = document.querySelectorAll('.dropdown-item');
 const carouselInner = document.querySelector('.carousel-inner');
 const dropdownButton = document.getElementById('dropdownMenuButton');
 
-/*
+
 window.onload = function () {
     alert("Portfólio em atualização");
    };
-*/
+
 const projects = {
     "data-analysis": [
         { 
