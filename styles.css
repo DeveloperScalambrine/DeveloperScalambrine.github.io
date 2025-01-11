@@ -588,3 +588,10 @@ button#menu-toggle.visible {
   transform: translateX(0); /* Posição original */
 }
 
+#footer p {
+    line-height: 1.8;
+    color: #F2F2F2;
+    background: darkslateblue;
+    font-weight: bold;
+}
+
