@@ -557,7 +557,7 @@ section.content-section.text-center.visible {
 
 section {
   margin: 50px auto;
-  max-width: 800px;
+  max-width: 100%;
   padding: 20px;
   opacity: 0; /* Inicialmente invisível */
   transform: scaleX(0); /* Reduzido verticalmente */
