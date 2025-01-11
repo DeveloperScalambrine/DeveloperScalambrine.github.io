@@ -588,17 +588,3 @@ button#menu-toggle.visible {
   transform: translateX(0); /* Posição original */
 }
 
-      section {
-  margin: 50px auto;
-  max-width: 800px;
-  padding: 20px;
-  opacity: 0; /* Inicialmente invisível */
-  transform: scaleY(0); /* Reduzido verticalmente */
-  transform-origin: top;
-  transition: opacity 1.5s ease, transform 1.5s ease;
-}
-
-section.visible {
-  opacity: 1; /* Visível */
-  transform: scaleY(1); /* Expandido para o tamanho original */
-}
