@@ -112,3 +112,21 @@ dropdownItems.forEach(item => {
         }
     });
 });
+
+            document.addEventListener("DOMContentLoaded", () => {
+  const sections = document.querySelectorAll("section");
+
+  const revealSection = () => {
+    sections.forEach((section) => {
+      const rect = section.getBoundingClientRect();
+      if (rect.top <= window.innerHeight / 1.2) {
+        section.hidden = false;
+        section.classList.add("visible");
+      }
+    });
+  };
+
+  window.addEventListener("scroll", revealSection);
+  revealSection(); // Chamar ao carregar para verificar se alguma seção já está visível
+});
+
