@@ -564,7 +564,7 @@ section {
   opacity: 0; /* Inicialmente invisível */
   transform: scaleY(0); /* Reduzido verticalmente */
   transform-origin: top;
-  transition: opacity 0.5s ease, transform 0.5s ease; /* Transição suave */
+  transition: opacity 1.5s ease, transform 1.5s ease; /* Transição suave */
 }
 
 section.visible {
