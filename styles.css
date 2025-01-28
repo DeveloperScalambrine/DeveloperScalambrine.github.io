@@ -598,7 +598,7 @@ button#menu-toggle.visible {
 }
 
 .about-list {
-    background: rgba(72, 61, 139, 0.2); /* darkslateblue transparente */
+    background: radial-gradient(gray, transparent); /* darkslateblue transparente */
     border-radius: 10px;
     width: 30%;
     min-width: 250px;
@@ -621,7 +621,7 @@ button#menu-toggle.visible {
     height: 100%;
     padding: 20px;
     transition: height 0.5s ease-in-out;
-    background: rgba(72, 61, 139, 0.2);
+    background: radial-gradient(gray, transparent);
     border-radius: 10px;
     color: darkslateblue;
 }
