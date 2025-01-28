@@ -149,14 +149,14 @@ const desafios = [
 
 let index = 0;
 const desafioTexto = document.getElementById("desafio-texto");
-const aboutList = document.querySelector(".about-list");
+const desafiosList = document.querySelector(".about-list.desafios");
 
 function atualizarDesafio() {
    desafioTexto.textContent = desafios[index];
     
     // Aguarda renderização e ajusta a altura dinamicamente
-    setTimeout(() => {
-        aboutList.style.height = desafioTexto.scrollHeight + "px";
+     setTimeout(() => {
+        desafiosList.style.height = desafioTexto.scrollHeight + "px";
     }, 100);
 
     index = (index + 1) % desafios.length;
