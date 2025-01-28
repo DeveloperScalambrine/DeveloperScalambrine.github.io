@@ -617,7 +617,8 @@ button#menu-toggle.visible {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 50px;
+   /* min-height: 50px; */
+    height: 100%;
     padding: 20px;
     transition: height 0.5s ease-in-out;
     background: rgba(72, 61, 139, 0.1);
