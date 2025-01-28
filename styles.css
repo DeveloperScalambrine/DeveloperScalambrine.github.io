@@ -571,7 +571,7 @@ section.visible {
 }
 
 button#menu-toggle {
-  background: darkslateblue;
+  background: radial-gradient(gray, transparent);
   color:  #F5F5F5;
   border: none;
   padding: 0.5rem 1rem;
