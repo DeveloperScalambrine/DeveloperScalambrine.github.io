@@ -156,7 +156,7 @@ function atualizarDesafio() {
     
     // Aguarda renderização e ajusta a altura dinamicamente
      setTimeout(() => {
-        desafiosList.style.height = desafioTexto.scrollHeight + "px";
+        desafiosList.style.height = desafioTexto.scrollHeight + "%";
     }, 100);
 
     index = (index + 1) % desafios.length;
