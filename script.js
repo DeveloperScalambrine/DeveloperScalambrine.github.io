@@ -148,10 +148,18 @@ const desafios = [
 ];
 
 let index = 0;
+const desafioTexto = document.getElementById("desafio-texto");
+const aboutList = document.querySelector(".about-list");
 
 function atualizarDesafio() {
-    document.getElementById("desafio-texto").textContent = desafios[index];
-    index = (index + 1) % desafios.length; // Loop no array
+   desafioTexto.textContent = desafios[index];
+    
+    // Aguarda renderização e ajusta a altura dinamicamente
+    setTimeout(() => {
+        aboutList.style.height = desafioTexto.scrollHeight + "px";
+    }, 100);
+
+    index = (index + 1) % desafios.length;
 }
 
 // Atualiza o primeiro desafio imediatamente
