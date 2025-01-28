@@ -496,7 +496,7 @@ html {
 #contact {
   text-align: center;
   padding: 50px;
-  background-color: radial-gradient(gray, transparent);
+  background: radial-gradient(gray, transparent);
 }
 
 #contact h2 {
