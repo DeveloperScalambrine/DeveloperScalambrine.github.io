@@ -174,7 +174,7 @@ main {
 
 #about {
     background-color: #F2F2F2;
-    color: #e0e0e0;
+    color: darkslategray;
     padding: 50px 20px;
     margin: 0 auto;
     text-align: center;
@@ -606,6 +606,7 @@ button#menu-toggle.visible {
     text-align: left;
     backdrop-filter: blur(10px); /* Suaviza o fundo */
     transition: transform 0.3s ease, background 0.3s ease;
+    color: darkslategray;
 }
 
 .about-list:hover {
