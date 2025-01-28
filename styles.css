@@ -626,6 +626,10 @@ button#menu-toggle.visible {
     color: darkslateblue;
 }
 
+.about-list.desafios:hover {
+    background: rgba(72, 61, 139, 0.4);
+    transform: translateY(-5px);
+}
 
 h3 {
     color: darkslateblue;
