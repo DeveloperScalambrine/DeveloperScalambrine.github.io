@@ -680,7 +680,7 @@ section p {
 #footer {
     line-height: 1.8;
     color: #F2F2F2;
-    background: darkslateblue;
+    background: radial-gradient(gray, transparent);
     font-weight: 400;
 }
 
