@@ -138,3 +138,25 @@ dropdownItems.forEach(item => {
   window.addEventListener("scroll", revealSection);
   revealSection(); // Chamar ao carregar para verificar outras seções
 });
+
+const desafios = [
+    "Estou constantemente me desafiando com novos projetos de análise de dados.",
+    "Busco resolver problemas complexos com soluções eficientes e escaláveis.",
+    "Aprendendo novas ferramentas para aprimorar minhas habilidades em BI.",
+    "Explorando machine learning para análises mais avançadas.",
+    "Criando dashboards interativos para transformar dados em insights."
+];
+
+let index = 0;
+
+function atualizarDesafio() {
+    document.getElementById("desafio-texto").textContent = desafios[index];
+    index = (index + 1) % desafios.length; // Loop no array
+}
+
+// Atualiza o primeiro desafio imediatamente
+atualizarDesafio();
+
+// Alterna o desafio a cada 30 segundos
+setInterval(atualizarDesafio, 30000);
+
