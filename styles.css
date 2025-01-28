@@ -129,7 +129,7 @@ main {
     margin-bottom: 20px;
     font-size: 40px;
     font-weight: revert;
-    color: #F2F2F2;
+    color: lightgrey;
 }
 
 #projects .dropdown {
@@ -183,7 +183,7 @@ main {
 #about .section-title {
     font-size: 40px;
     margin: 0px 0px 20px;
-    color: #6495ED; /* Azul claro para destacar o título */
+    color: lightgrey; 
     font-weight: revert;
 }
 
@@ -278,7 +278,7 @@ main {
 .home-description h1 {
     font-size: 24px;
     margin-bottom: 20px;
-    color: cornflowerblue;
+    color: lightgrey;
     font-weight: bold;
 }
 
@@ -503,7 +503,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #F2F2F2;
+  color: lightgrey;
   font-size: 40px;
   font-weight: revert;
 }
