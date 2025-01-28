@@ -598,14 +598,15 @@ button#menu-toggle.visible {
 }
 
 .about-list {
-    background: rgba(72, 61, 139, 0.2); /* darkslateblue transparente */
-    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px; /* Garante altura mínima */
     padding: 20px;
-    width: 30%;
-    min-width: 250px;
-    text-align: left;
-    backdrop-filter: blur(10px); /* Suaviza o fundo */
-    transition: transform 0.3s ease, background 0.3s ease;
+    transition: height 0.5s ease-in-out; /* Suaviza a mudança de altura */
+    background: rgba(72, 61, 139, 0.1); /* Fundo transparente */
+    border-radius: 10px;
     color: darkslategray;
 }
 
