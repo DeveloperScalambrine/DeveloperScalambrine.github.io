@@ -672,6 +672,10 @@ section p {
         margin-bottom: 20px;
     }
 }
+
+.project {
+    color: #F2F2F2;
+}
     
 #footer {
     line-height: 1.8;
