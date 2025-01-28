@@ -157,6 +157,6 @@ function atualizarDesafio() {
 // Atualiza o primeiro desafio imediatamente
 atualizarDesafio();
 
-// Alterna o desafio a cada 30 segundos
-setInterval(atualizarDesafio, 30000);
+// Alterna o desafio a cada 10 segundos
+setInterval(atualizarDesafio, 10000);
 
