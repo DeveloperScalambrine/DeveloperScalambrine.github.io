@@ -687,6 +687,10 @@ section p {
   display: inline-block;
   font-size: 16px;
 }
+
+.btn.btn-primary.btn-sm {
+    background: radial-gradient(transparent, gray);
+}
     
 #footer {
     line-height: 1.8;
