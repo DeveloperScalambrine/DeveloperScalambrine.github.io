@@ -379,14 +379,15 @@ a {
 .carousel-control-prev, .carousel-control-next{
      background-color: #121212;
 }
+*/
 
-.carousel-caption {
+.carousel-caption p {
     font-size: 14px;     padding: 10px; 
     background-color: rgba(0, 0, 0, 0.6);
     color: #fff;
     border-radius: 8px; 
 } 
-*/
+
 
 .title-project {
   font-size: 24px;
