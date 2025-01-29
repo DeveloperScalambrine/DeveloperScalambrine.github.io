@@ -691,32 +691,11 @@ section p {
 }
 
 @media (min-width: 768px) {
-  #about {
-    padding: 10px;
-  }
-  #about h2 {
-    font-size: 24px;
-  }
-}
-
-@media (min-width: 768px) {
     .about-container {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
-
-.sobre-container {
-  display: flex;
-  justify-content: space-between; /* Ajustar o espaçamento entre os itens */
-  align-items: center; /* Centralizar verticalmente os itens */
-}
-
-.secao {
-  /* Estilos para cada seção */
-  width: 30%; /* Ajustar a largura de cada seção */
-  padding: 20px;
-}
-    
+   
 #footer {
     line-height: 1.8;
     color: #F2F2F2;
