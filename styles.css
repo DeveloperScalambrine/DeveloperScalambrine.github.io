@@ -696,10 +696,19 @@ section p {
         align-items: center;
     }
 */ 
+.section-container {
+  display: flex; /* Transforma o container em um flex container */
+  justify-content: space-around; /* Distribui os itens de forma uniforme */
+  align-items: center; /* Centraliza os itens verticalmente */
+}
+
+.section-title {
+  text-align: center; /* Centraliza o texto do título */
+}
+
 #footer {
     line-height: 1.8;
     color: #F2F2F2;
     background: radial-gradient(gray, transparent);
     font-weight: 400;
 }
-
