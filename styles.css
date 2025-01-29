@@ -383,9 +383,14 @@ a {
 
 .carousel-caption p {
     font-size: 14px;     padding: 10px; 
-    background-color: rgba(0, 0, 0, 0.6);
+    background: radial-gradient(transparent, gray);
     color: #fff;
     border-radius: 8px; 
+} 
+
+.carousel-caption button {
+    background: radial-gradient(transparent, gray);
+    color: #fff; 
 } 
 
 
@@ -687,11 +692,7 @@ section p {
   display: inline-block;
   font-size: 16px;
 }
-
-.btn.btn-primary.btn-sm {
-    background: radial-gradient(transparent, gray);
-}
-    
+   
 #footer {
     line-height: 1.8;
     color: #F2F2F2;
