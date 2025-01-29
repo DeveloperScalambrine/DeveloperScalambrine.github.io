@@ -154,6 +154,8 @@ main {
 #projects .carousel-caption p {
     font-size: 0.9em;
     line-height: 1.4;
+    background: radial-gradient(transparent, gray);
+
 }
 
 #projects .carousel-caption a {
@@ -381,14 +383,6 @@ a {
 }
 */
     
-.carousel-caption p {
-    font-size: 14px;     padding: 10px; 
-    background: radial-gradient(transparent, gray);
-    color: #fff;
-    border-radius: 8px; 
-} 
-
-
 .title-project {
   font-size: 24px;
   font-weight: bold;
