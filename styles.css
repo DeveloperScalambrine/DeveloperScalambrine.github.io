@@ -381,6 +381,10 @@ a {
 }
 */
 
+.carousel-caption {
+    background: radial-gradient(black, transparent);
+}
+    
 .carousel-caption p {
     font-size: 14px;     padding: 10px; 
     background: radial-gradient(transparent, gray);
@@ -388,7 +392,7 @@ a {
     border-radius: 8px; 
 } 
 
-.carousel-caption button {
+.carousel-caption a {
     background: radial-gradient(transparent, gray);
     color: #fff; 
 } 
