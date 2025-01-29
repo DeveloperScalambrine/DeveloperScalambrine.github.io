@@ -146,7 +146,7 @@ main {
 }
 
 #projects .carousel-caption {
-    background: rgba(0, 0, 0, 0.7);
+    background:  radial-gradient(black, transparent);
     padding: 10px 20px;
     border-radius: 5px;
 }
@@ -161,7 +161,7 @@ main {
     margin-top: 10px;
     font-size: 0.8em;
     padding: 5px 10px;
-    background: #4caf50;
+    background: radial-gradient(transparent, gray);
     color: #fff;
     text-decoration: none;
     border-radius: 4px;
@@ -380,21 +380,12 @@ a {
      background-color: #121212;
 }
 */
-
-.carousel-caption {
-    background: radial-gradient(black, transparent);
-}
     
 .carousel-caption p {
     font-size: 14px;     padding: 10px; 
     background: radial-gradient(transparent, gray);
     color: #fff;
     border-radius: 8px; 
-} 
-
-.carousel-caption a {
-    background: radial-gradient(transparent, gray);
-    color: #fff; 
 } 
 
 
