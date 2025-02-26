@@ -144,8 +144,8 @@ dropdownItems.forEach(item => {
 
 const desafios = [
     {
-    "Como analista júnior na Cyclistic, você precisa identificar as diferenças de uso entre clientes casuais e membros anuais. O objetivo é desenvolver uma estratégia de marketing eficaz para converter mais clientes casuais em assinantes anuais.",  
-     icone: <img src="images.jpg" alt="R" class="icon"/>
+    texto: "Como analista júnior na Cyclistic, você precisa identificar as diferenças de uso entre clientes casuais e membros anuais. O objetivo é desenvolver uma estratégia de marketing eficaz para converter mais clientes casuais em assinantes anuais.",  
+    icone: "<img src='images.jpg' alt='R' class="icon"/>
     },
     {
     "Busco resolver problemas complexos com soluções eficientes e escaláveis.",
@@ -165,6 +165,8 @@ const desafiosList = document.querySelector(".about-list.desafios");
 
 function atualizarDesafio() {
    desafioTexto.textContent = desafios[index];
+   desafioTexto.innerHTML = `${desafios[index].texto} ${desafios[index].icone}`;
+
     
     // Aguarda renderização e ajusta a altura dinamicamente
      setTimeout(() => {
