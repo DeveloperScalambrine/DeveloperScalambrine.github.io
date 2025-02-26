@@ -145,9 +145,9 @@ const desafios = [
     
     "Busco resolver problemas complexos com soluções eficientes e escaláveis.",
     "Aprendendo novas ferramentas para aprimorar minhas habilidades em BI.",
-    "Explorando machine learning para análises mais."
+    "Explorando machine learning para análises mais.",
         
-     "Criando dashboards interativos para transformar dados em insights.",
+     "Criando dashboards interativos para transformar dados em insights."
     
 ];
 
