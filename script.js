@@ -142,26 +142,26 @@ dropdownItems.forEach(item => {
 const desafios = [
     {
     texto: "Como analista júnior na Cyclistic, você precisa identificar as diferenças de uso entre clientes casuais e membros anuais. O objetivo é desenvolver uma estratégia de marketing eficaz para converter mais clientes casuais em assinantes anuais.",  
-    icone: "<img src='images.jpg' alt='R' class="icon"/>
+    icone: "<img src='images.jpg' alt='R' class="icon">
     },
     {
    texto: "Busco resolver problemas complexos com soluções eficientes e escaláveis.",
-   icone: "<img src='images.jpg' alt='R' class="icon"/>
+   icone: "<img src='images.jpg' alt='R' class="icon">
 
     },
     {
     texto: "Aprendendo novas ferramentas para aprimorar minhas habilidades em BI.",
-    icone: "<img src='images.jpg' alt='R' class="icon"/>
+    icone: "<img src='images.jpg' alt='R' class="icon">
 
     },
     {
     texto: "Explorando machine learning para análises mais avançadas.",
-    icone: "<img src='images.jpg' alt='R' class="icon"/>
+    icone: "<img src='images.jpg' alt='R' class="icon">
 
     },
     {
     texto: "Criando dashboards interativos para transformar dados em insights.",
-    icone: "<img src='images.jpg' alt='R' class="icon"/>
+    icone: "<img src='images.jpg' alt='R' class="icon">
     }
 ];
 
