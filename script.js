@@ -139,12 +139,24 @@ dropdownItems.forEach(item => {
   revealSection(); // Chamar ao carregar para verificar outras seções
 });
 
+<img src="images.jpg" alt="R" class="icon">
+
+
 const desafios = [
+    {
     "Como analista júnior na Cyclistic, você precisa identificar as diferenças de uso entre clientes casuais e membros anuais. O objetivo é desenvolver uma estratégia de marketing eficaz para converter mais clientes casuais em assinantes anuais.",  
+     icone: <img src="images.jpg" alt="R" class="icon"/>
+    },
+    {
     "Busco resolver problemas complexos com soluções eficientes e escaláveis.",
+    },
+    {
     "Aprendendo novas ferramentas para aprimorar minhas habilidades em BI.",
+    },
     "Explorando machine learning para análises mais avançadas.",
+    {
     "Criando dashboards interativos para transformar dados em insights."
+    }
 ];
 
 let index = 0;
