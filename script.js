@@ -148,14 +148,23 @@ const desafios = [
     icone: "<img src='images.jpg' alt='R' class="icon"/>
     },
     {
-    "Busco resolver problemas complexos com soluções eficientes e escaláveis.",
+   texto: "Busco resolver problemas complexos com soluções eficientes e escaláveis.",
+   icone: "<img src='images.jpg' alt='R' class="icon"/>
+
     },
     {
-    "Aprendendo novas ferramentas para aprimorar minhas habilidades em BI.",
+    texto: "Aprendendo novas ferramentas para aprimorar minhas habilidades em BI.",
+    icone: "<img src='images.jpg' alt='R' class="icon"/>
+
     },
-    "Explorando machine learning para análises mais avançadas.",
     {
-    "Criando dashboards interativos para transformar dados em insights."
+    texto: "Explorando machine learning para análises mais avançadas.",
+    icone: "<img src='images.jpg' alt='R' class="icon"/>
+
+    },
+    {
+    texto: "Criando dashboards interativos para transformar dados em insights.",
+    icone: "<img src='images.jpg' alt='R' class="icon"/>
     }
 ];
 
