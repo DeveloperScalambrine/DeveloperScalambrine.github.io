@@ -139,9 +139,6 @@ dropdownItems.forEach(item => {
   revealSection(); // Chamar ao carregar para verificar outras seções
 });
 
-<img src="images.jpg" alt="R" class="icon">
-
-
 const desafios = [
     {
     texto: "Como analista júnior na Cyclistic, você precisa identificar as diferenças de uso entre clientes casuais e membros anuais. O objetivo é desenvolver uma estratégia de marketing eficaz para converter mais clientes casuais em assinantes anuais.",  
