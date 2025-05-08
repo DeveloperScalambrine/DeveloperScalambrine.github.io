@@ -770,3 +770,16 @@ section p {
   transform: translateY(-5px) scale(1.02); /* Levemente para cima e um pequeno zoom */
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15); /* Sombra mais pronunciada */
 }
+
+/* ... seu CSS anterior ... */
+
+.diploma-card a {
+  text-decoration: none; /* Remove qualquer sublinhado padrão de links */
+}
+
+/* Se você quiser que o cursor mude ao passar o mouse sobre a imagem */
+.diploma-card a:hover {
+  cursor: pointer;
+}
+
+/* ... o restante do seu CSS ... */
