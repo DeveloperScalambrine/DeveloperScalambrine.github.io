@@ -170,3 +170,63 @@ atualizarDesafio();
 // Alterna o desafio a cada 10 segundos
 setInterval(atualizarDesafio, 10000);
 
+document.addEventListener('DOMContentLoaded', function() {
+  const diplomasContainer = document.querySelector('.diplomas-container');
+
+  // Array de objetos com as informações dos seus diplomas
+  const diplomas = [
+    {
+      titulo: 'Bacharel em Ciência da Computação',
+      instituicao: 'Universidade Estadual de São Paulo (USP)',
+      data: 'Junho de 2023',
+      descricao: 'Graduação com foco em desenvolvimento de software e algoritmos.'
+    },
+    {
+      titulo: 'Certificado em Desenvolvimento Web Full-Stack',
+      instituicao: 'Digital Innovation One',
+      data: 'Dezembro de 2024',
+      descricao: 'Bootcamp intensivo cobrindo HTML, CSS, JavaScript, React e Node.js.'
+    },
+    {
+      titulo: 'Curso de Inglês Avançado',
+      instituicao: 'Cultura Inglesa',
+      data: 'Março de 2022',
+      descricao: 'Nível C1 do Quadro Europeu Comum de Referência para Línguas.'
+    },
+    // Adicione mais diplomas aqui conforme necessário
+  ];
+
+  // Função para criar um card de diploma
+  function criarDiplomaCard(diploma) {
+    const card = document.createElement('div');
+    card.classList.add('diploma-card');
+
+    const titulo = document.createElement('h3');
+    titulo.textContent = diploma.titulo;
+
+    const instituicao = document.createElement('p');
+    instituicao.classList.add('instituicao');
+    instituicao.textContent = diploma.instituicao;
+
+    const data = document.createElement('p');
+    data.classList.add('data');
+    data.textContent = diploma.data;
+
+    const descricao = document.createElement('p');
+    descricao.textContent = diploma.descricao;
+
+    card.appendChild(titulo);
+    card.appendChild(instituicao);
+    card.appendChild(data);
+    card.appendChild(descricao);
+
+    return card;
+  }
+
+  // Adiciona cada diploma ao container
+  diplomas.forEach(diploma => {
+    const diplomaCard = criarDiplomaCard(diploma);
+    diplomasContainer.appendChild(diplomaCard);
+  });
+});
+
