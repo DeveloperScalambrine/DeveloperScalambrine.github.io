@@ -204,10 +204,17 @@ document.addEventListener('DOMContentLoaded', function() {
     const card = document.createElement('div');
     card.classList.add('diploma-card');
 
+     const linkImagem = document.createElement('a');
+     linkImagem.href = diploma.imagemUrl;
+     linkImagem.target = '_blank'; // Abre o link em uma nova aba
+     linkImagem.style.display = 'block'; // Faz o link ocupar o espaço da imagem
+
     const imagem = document.createElement('img');
     imagem.src = diploma.imagemUrl;
     imagem.alt = `Foto do diploma de ${diploma.titulo}`;
     imagem.classList.add('diploma-imagem');
+
+   linkImagem.appendChild(imagem); // Coloca a imagem dentro do link
 
     const titulo = document.createElement('h3');
     titulo.textContent = diploma.titulo;
@@ -223,6 +230,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const descricao = document.createElement('p');
     descricao.textContent = diploma.descricao;
 
+    card.appendChild(linkImagem);
     card.appendChild(imagem);
     card.appendChild(titulo);
     card.appendChild(instituicao);
