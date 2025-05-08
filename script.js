@@ -223,6 +223,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const descricao = document.createElement('p');
     descricao.textContent = diploma.descricao;
 
+    card.appendChild(imagem);
     card.appendChild(titulo);
     card.appendChild(instituicao);
     card.appendChild(data);
