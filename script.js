@@ -179,19 +179,22 @@ document.addEventListener('DOMContentLoaded', function() {
       titulo: 'Bacharel em Ciência da Computação',
       instituicao: 'Universidade Estadual de São Paulo (USP)',
       data: 'Junho de 2023',
-      descricao: 'Graduação com foco em desenvolvimento de software e algoritmos.'
+      descricao: 'Graduação com foco em desenvolvimento de software e algoritmos.',
+      imagemUrl: 'caminho/para/seu/diploma1.jpg'
     },
     {
       titulo: 'Certificado em Desenvolvimento Web Full-Stack',
       instituicao: 'Digital Innovation One',
       data: 'Dezembro de 2024',
-      descricao: 'Bootcamp intensivo cobrindo HTML, CSS, JavaScript, React e Node.js.'
+      descricao: 'Bootcamp intensivo cobrindo HTML, CSS, JavaScript, React e Node.js.',
+      imagemUrl: 'caminho/para/seu/diploma1.jpg'
     },
     {
       titulo: 'Curso de Inglês Avançado',
       instituicao: 'Cultura Inglesa',
       data: 'Março de 2022',
-      descricao: 'Nível C1 do Quadro Europeu Comum de Referência para Línguas.'
+      descricao: 'Nível C1 do Quadro Europeu Comum de Referência para Línguas.',
+      imagemUrl: 'caminho/para/seu/diploma1.jpg'
     },
     // Adicione mais diplomas aqui conforme necessário
   ];
@@ -200,6 +203,11 @@ document.addEventListener('DOMContentLoaded', function() {
   function criarDiplomaCard(diploma) {
     const card = document.createElement('div');
     card.classList.add('diploma-card');
+
+    const imagem = document.createElement('img');
+    imagem.src = diploma.imagemUrl;
+    imagem.alt = `Foto do diploma de ${diploma.titulo}`;
+    imagem.classList.add('diploma-imagem');
 
     const titulo = document.createElement('h3');
     titulo.textContent = diploma.titulo;
