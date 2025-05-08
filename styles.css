@@ -716,7 +716,7 @@ section p {
 .diplomas-section {
   padding: 40px 20px;
   text-align: center;
-  background-color: #f9f9f9; /* Cor de fundo opcional */
+  background-color: #f9f9f9;
 }
 
 .diplomas-container {
@@ -731,19 +731,29 @@ section p {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  width: 300px; /* Largura desejada para cada card */
-  text-align: left;
+  padding: 15px; /* Reduzi um pouco o padding para acomodar a imagem */
+  width: 300px;
+  text-align: center; /* Centralizar o conteúdo */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Transição suave para a animação */
+}
+
+.diploma-imagem {
+  max-width: 100%; /* A imagem não deve ultrapassar a largura do card */
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 4px; /* Opcional: arredondar um pouco as bordas da imagem */
 }
 
 .diploma-card h3 {
   margin-top: 0;
   color: #333;
+  font-size: 1.1em;
 }
 
 .diploma-card p {
   color: #666;
-  margin-bottom: 10px;
+  font-size: 0.9em;
+  margin-bottom: 8px;
 }
 
 .diploma-card .instituicao {
@@ -751,7 +761,12 @@ section p {
 }
 
 .diploma-card .data {
-  font-size: 0.9em;
+  font-size: 0.8em;
   color: #888;
 }
 
+/* Animação ao passar o mouse */
+.diploma-card:hover {
+  transform: translateY(-5px) scale(1.02); /* Levemente para cima e um pequeno zoom */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15); /* Sombra mais pronunciada */
+}
