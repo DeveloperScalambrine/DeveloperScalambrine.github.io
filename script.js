@@ -180,21 +180,21 @@ document.addEventListener('DOMContentLoaded', function() {
       instituicao: 'Universidade Estadual de São Paulo (USP)',
       data: 'Junho de 2023',
       descricao: 'Graduação com foco em desenvolvimento de software e algoritmos.',
-      imagemUrl: 'Data_Analytics.pdf'
+      imagemUrl: 'Data_Analytics.jpg'
     },
     {
       titulo: 'Certificado em Desenvolvimento Web Full-Stack',
       instituicao: 'Digital Innovation One',
       data: 'Dezembro de 2024',
       descricao: 'Bootcamp intensivo cobrindo HTML, CSS, JavaScript, React e Node.js.',
-      imagemUrl: 'Data_Analytics.pdf'
+      imagemUrl: 'Data_Analytics.jpg'
     },
     {
       titulo: 'Curso de Inglês Avançado',
       instituicao: 'Cultura Inglesa',
       data: 'Março de 2022',
       descricao: 'Nível C1 do Quadro Europeu Comum de Referência para Línguas.',
-      imagemUrl: 'Data_Analytics.pdf'
+      imagemUrl: 'Data_Analytics.jpg'
     },
     // Adicione mais diplomas aqui conforme necessário
   ];
