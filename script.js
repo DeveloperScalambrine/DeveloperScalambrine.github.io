@@ -176,10 +176,10 @@ document.addEventListener('DOMContentLoaded', function() {
   // Array de objetos com as informações dos seus diplomas
   const diplomas = [
     {
-      titulo: 'Bacharel em Ciência da Computação',
-      instituicao: 'Universidade Estadual de São Paulo (USP)',
-      data: 'Junho de 2023',
-      descricao: 'Graduação com foco em desenvolvimento de software e algoritmos.',
+      titulo: ' Google Data Analytics (PT)',
+      instituicao: 'Coursera / Google',
+      data: 'Abril de 2025',
+      descricao: 'Análise de Dados (preparar, processar, analisar e compartilhar dados para realizar uma ação consciente)',
       imagemUrl: 'Data_Analytics.jpg'
     },
     {
