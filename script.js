@@ -214,8 +214,6 @@ document.addEventListener('DOMContentLoaded', function() {
     imagem.alt = `Foto do diploma de ${diploma.titulo}`;
     imagem.classList.add('diploma-imagem');
 
-   linkImagem.appendChild(imagem); // Coloca a imagem dentro do link
-
     const titulo = document.createElement('h3');
     titulo.textContent = diploma.titulo;
 
@@ -236,6 +234,8 @@ document.addEventListener('DOMContentLoaded', function() {
     card.appendChild(instituicao);
     card.appendChild(data);
     card.appendChild(descricao);
+    linkImagem.appendChild(imagem); // Coloca a imagem dentro do link
+
 
     return card;
   }
